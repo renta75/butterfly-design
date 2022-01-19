@@ -1,0 +1,150 @@
+@mixin overlapping-headers {
+    h1 {
+        font-family: 'Colombo';
+        color: $teal;
+        font-size: 6.25rem;
+        text-transform: uppercase;
+      }
+    h2 {
+        font-family: 'Montserrat';
+        color: $pink;
+        font-size: 4.375rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        position: relative;
+        top: -50px;
+      }
+}
+
+@mixin button {
+    display: block;
+    color: $white;
+    background: linear-gradient(270deg, rgba(255, 24, 247, 0.5) 0%, rgba(22, 255, 255, 0.5) 100%);
+    border-radius: 15px;
+    width: 100%;
+    max-width: 20rem;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+@mixin elevated-boxes {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    &__top-img {
+        width: 8rem;
+        position: absolute;
+        top: -4rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    &__regular-img {
+        width: 100%;
+        max-width: 5rem;
+        margin: 2rem 0;
+    }
+
+    .first-img {
+        top: -6.5rem;
+    }
+
+    &__wrapper {
+        display: flex;
+        max-height: 20rem;
+        margin: 0.1rem;
+        background: $dark-blue;
+
+        div {
+            position: relative;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        h3 {
+            font-family: 'Colombo';
+            color: $teal;
+            text-transform: uppercase;
+            font-size: 1.75rem;
+            padding-top: 4rem;
+        }
+
+        p {
+            font-family: 'Montserrat';
+            color: $white;
+            margin: 1.5rem 0;
+            padding: 0 1rem;
+        }
+    }
+
+    &__elevated-box {
+        box-shadow: 0 0 20px #000;
+        top: -1.5rem;
+        height: 23rem;
+        background: $dark-blue;
+
+        h3 {
+            padding-top: 5.5rem;
+        }
+    }
+
+    ::after {
+        position: absolute;
+        top: -2px; bottom: -2px;
+        left: -2px; right: -2px;
+        background: linear-gradient(90deg, rgb(22, 255, 255, 1) 0%, rgb(255, 24, 247, 1) 100%);
+        content: '';
+        z-index: -1;
+        border-radius: 8px;
+    }
+}
+
+@mixin service-page-intro {
+    display: flex;
+    margin: 10rem auto 3rem;
+
+    &__heading {
+        font-size: 7rem;
+        color: $teal;
+        font-family: 'Colombo';
+        font-weight: bold;
+    }
+
+    &__text {
+        font-size: 1.2rem;
+        color: $white;
+        font-family: 'Montserrat';
+    }
+}
+
+@mixin styled-heading {
+    color: $white;
+    text-align: center;
+    font-size: 2rem;
+    margin: 7rem 0 3rem;
+
+    &::before {
+        content: '';
+        display: inline-block;
+        width: 5rem;
+        height: 0.1rem;
+        position: relative;
+        right: 0.5rem;
+        background: $teal;
+        vertical-align: middle;
+    }
+
+    &::after {
+        content: '';
+        display: inline-block;
+        width: 5rem;
+        height: 0.1rem;
+        position: relative;
+        left: 0.5rem;
+        background: $pink;
+        vertical-align: middle;
+    }
+}

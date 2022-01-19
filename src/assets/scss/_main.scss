@@ -1,0 +1,29 @@
+@import '@/assets/scss/_reset.scss';
+@import '@/assets/scss/_variables.scss';
+
+@font-face {
+    font-family: 'Colombo';
+    src: url('~@/assets/Colombo.woff2') format('woff2'),
+    url('~@/assets/Colombo.woff') format('woff');
+}
+@font-face {
+    font-family: 'MyriadPro';
+    src: url('~@/assets/MyriadPro.woff') format('woff')
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('~@/assets/Fonts/Montserrat/Montserrat-Light.ttf') format('opentype')
+}
+
+body {
+    overflow-x: hidden;
+    background-color: $dark-blue;
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
