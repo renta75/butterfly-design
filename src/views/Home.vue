@@ -32,7 +32,7 @@
                     alt=""
                     class="laptop__image"
                 />
-                <div class="laptop__content">
+                <router-link to="/services/web-development" class="laptop__content">
                     <h3 class="laptop__heading">Web development</h3>
                     <p class="laptop__text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -40,7 +40,7 @@
                         amet consectetur adipisicing elit. Optio ipsa iusto nam
                         enim sed!
                     </p>
-                </div>
+                </router-link>
             </div>
             <div class="laptop">
                 <img
@@ -48,7 +48,7 @@
                     alt=""
                     class="laptop__image"
                 />
-                <div class="laptop__content">
+                <router-link to="/services/e-commerce" class="laptop__content">
                     <h3 class="laptop__heading">ECommerce</h3>
                     <p class="laptop__text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -56,7 +56,7 @@
                         amet consectetur adipisicing elit. Optio ipsa iusto nam
                         enim sed!
                     </p>
-                </div>
+                </router-link>
             </div>
             <div class="laptop">
                 <img
@@ -64,7 +64,7 @@
                     alt=""
                     class="laptop__image"
                 />
-                <div class="laptop__content">
+                <router-link to="/services/maintenance" class="laptop__content">
                     <h3 class="laptop__heading">Maintenance</h3>
                     <p class="laptop__text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -72,7 +72,7 @@
                         amet consectetur adipisicing elit. Optio ipsa iusto nam
                         enim sed!
                     </p>
-                </div>
+                </router-link>
             </div>
             <div class="laptop">
                 <img
@@ -80,7 +80,7 @@
                     alt=""
                     class="laptop__image"
                 />
-                <div class="laptop__content">
+                <router-link to="/services/graphic-design" class="laptop__content">
                     <h3 class="laptop__heading">Graphic Design</h3>
                     <p class="laptop__text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -88,7 +88,7 @@
                         amet consectetur adipisicing elit. Optio ipsa iusto nam
                         enim sed!
                     </p>
-                </div>
+                </router-link>
             </div>
         </div>
 
@@ -358,6 +358,8 @@ export default {
         height: 20rem;
         position: relative;
         top: -7rem;
+        display: block;
+        text-decoration: none;
     }
     &__heading {
         font-family: "Colombo";

@@ -23,7 +23,7 @@
                 Lorem ipsum dolor sit amet,
                 Lorem ipsum dolor sit amet
             </p>
-            <a href="#" class="services-wrapper__link">Read More</a>
+            <router-link to="/services/web-development" class="services-wrapper__link"><span>Read More</span></router-link>
         </div>
         <div class="services-wrapper__box">
             <img class="services-wrapper__top-img" src="../assets/services/Services-E-commerce-icon.svg" alt="">
@@ -40,7 +40,7 @@
                 Lorem ipsum dolor sit amet,
                 Lorem ipsum dolor sit amet
             </p>
-            <a href="#" class="services-wrapper__link">Read More</a>
+            <router-link to="/services/e-commerce" class="services-wrapper__link"><span>Read More</span></router-link>
         </div>
         <div class="services-wrapper__box">
             <img class="services-wrapper__top-img" src="../assets/services/Services-Maintenance-Icon.svg" alt="">
@@ -57,7 +57,7 @@
                 Lorem ipsum dolor sit amet,
                 Lorem ipsum dolor sit amet
             </p>
-            <a href="#" class="services-wrapper__link">Read More</a>
+            <router-link to="/services/maintenance" class="services-wrapper__link"><span>Read More</span></router-link>
         </div>
         <div class="services-wrapper__box">
             <img class="services-wrapper__top-img" src="../assets/services/Services-GraphicDesign-Icon.svg" alt="">
@@ -74,7 +74,7 @@
                 Lorem ipsum dolor sit amet,
                 Lorem ipsum dolor sit amet
             </p>
-            <a href="#" class="services-wrapper__link">Read More</a>
+            <router-link to="/services/graphic-design" class="services-wrapper__link"><span>Read More</span></router-link>
         </div>
     </div>
 
