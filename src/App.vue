@@ -7,17 +7,24 @@
 </template>
 
 <script>
-import HeaderGlobal from './components/Header.vue';
-import FooterGlobal from './components/Footer.vue';
+import HeaderGlobal from '@/components/Header.vue';
+import FooterGlobal from '@/components/Footer.vue';
 
 export default {
 	components: {
 		HeaderGlobal,
     FooterGlobal
-	}
+	},
+  metaInfo: {
+    title: 'Butterfly Design',
+    htmlAttrs: {
+      lang: 'en',
+      amp: true
+    }
+  }
 }
 </script>
 
 <style lang="scss">
-  @import '@/assets/scss/_main.scss';
+  @import '~@/assets/scss/_main.scss';
 </style>

@@ -20,11 +20,11 @@
 				<p class="contact-form__info__text">You can also check us out and follow us on social media</p>
 
 				<div class="contact-form__icons">
-					<img src="../assets/contact/Icon-Facebook.svg" alt="">
-					<img src="../assets/contact/Icon-Instagram.svg" alt="">
-					<img src="../assets/contact/Icon-Telegram.svg" alt="">
-					<img src="../assets/contact/Icon-Twitter.svg" alt="">
-					<img src="../assets/contact/Icon-Youtube.svg" alt="">
+					<img src="@/assets/contact/Icon-Facebook.svg" alt="">
+					<img src="@/assets/contact/Icon-Instagram.svg" alt="">
+					<img src="@/assets/contact/Icon-Telegram.svg" alt="">
+					<img src="@/assets/contact/Icon-Twitter.svg" alt="">
+					<img src="@/assets/contact/Icon-Youtube.svg" alt="">
 				</div>
 			</div>
 		</div>
@@ -32,7 +32,7 @@
 </template>
 
 <style lang="scss" scoped>
-@import '../assets/scss/_mixins.scss';
+@import '@/assets/scss/_mixins.scss';
 
 .contact-form {
 	width: 100%;

@@ -1,247 +1,14 @@
 <template>
     <div>
-        <div class="home">
-            <lottie
-                :options="heroLottieOptions"
-                v-on:animCreated="handleAnimation"
-                class="home__dots-animation"
-            />
-            <div class="home__hero-section">
-                <div class="home__hero-section-wrapper">
-                    <h1 class="home__hero-section-h1">Butterfly</h1>
-                    <h2 class="home__hero-section-h2">Design</h2>
-                    <h3 class="home__hero-section-subheading">
-                        Creative solutions for smart businesses
-                    </h3>
-                </div>
+        <home-intro></home-intro>
 
-                <div class="home__hero-section-butterfly">
-                    <img
-                        src="../assets/Main-Butterfly.svg"
-                        alt=""
-                        class="home__hero-section-butterfly-image"
-                    />
-                </div>
-            </div>
-        </div>
+        <home-section-two></home-section-two>
 
-        <div class="container section2">
-            <div class="laptop">
-                <img
-                    src="../assets/Laptop-WebDevelopment.svg"
-                    alt=""
-                    class="laptop__image"
-                />
-                <router-link to="/services/web-development" class="laptop__content">
-                    <h3 class="laptop__heading">Web development</h3>
-                    <p class="laptop__text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Optio ipsa iusto nam enim sed! Lorem ipsum dolor sit
-                        amet consectetur adipisicing elit. Optio ipsa iusto nam
-                        enim sed!
-                    </p>
-                </router-link>
-            </div>
-            <div class="laptop">
-                <img
-                    src="../assets/Laptop-Ecommerce.svg"
-                    alt=""
-                    class="laptop__image"
-                />
-                <router-link to="/services/e-commerce" class="laptop__content">
-                    <h3 class="laptop__heading">ECommerce</h3>
-                    <p class="laptop__text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Optio ipsa iusto nam enim sed! Lorem ipsum dolor sit
-                        amet consectetur adipisicing elit. Optio ipsa iusto nam
-                        enim sed!
-                    </p>
-                </router-link>
-            </div>
-            <div class="laptop">
-                <img
-                    src="../assets/Laptop-Maintenance.svg"
-                    alt=""
-                    class="laptop__image"
-                />
-                <router-link to="/services/maintenance" class="laptop__content">
-                    <h3 class="laptop__heading">Maintenance</h3>
-                    <p class="laptop__text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Optio ipsa iusto nam enim sed! Lorem ipsum dolor sit
-                        amet consectetur adipisicing elit. Optio ipsa iusto nam
-                        enim sed!
-                    </p>
-                </router-link>
-            </div>
-            <div class="laptop">
-                <img
-                    src="../assets/Laptop-GraphDesign.svg"
-                    alt=""
-                    class="laptop__image"
-                />
-                <router-link to="/services/graphic-design" class="laptop__content">
-                    <h3 class="laptop__heading">Graphic Design</h3>
-                    <p class="laptop__text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Optio ipsa iusto nam enim sed! Lorem ipsum dolor sit
-                        amet consectetur adipisicing elit. Optio ipsa iusto nam
-                        enim sed!
-                    </p>
-                </router-link>
-            </div>
-        </div>
+        <home-section-three></home-section-three>
 
-        <div class="section3">
-            <div class="container section3__section3-wrapper">
-                <div class="section3__title-wrapper">
-                    <h1 class="section3__section3-h1">We help smart</h1>
-                    <h2 class="section3__section3-h2">businesses succeed</h2>
-                </div>
-                <div class="section3__section3-content-wrapper">
-                    <lottie
-                        :options="section3Lottie"
-                        v-on:animCreated="handleAnimation"
-                        class="section3__lottieAnimation"
-                    />
-                    <div class="section3__box-wrapper">
-                        <div class="section3__box-wrapper-row">
-                            <div class="section3__box">
-                                <h3 class="section3__box-heading">
-                                    Lorem ipsum dolor
-                                </h3>
-                                <p class="section3__box-text">
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit.
-                                </p>
-                            </div>
-                            <div class="section3__box">
-                                <h3 class="section3__box-heading">
-                                    Lorem ipsum dolor
-                                </h3>
-                                <p class="section3__box-text">
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="section3__box-wrapper-row">
-                            <div class="section3__box">
-                                <h3 class="section3__box-heading">
-                                    Lorem ipsum dolor
-                                </h3>
-                                <p class="section3__box-text">
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit.
-                                </p>
-                            </div>
-                            <div class="section3__box">
-                                <h3 class="section3__box-heading">
-                                    Lorem ipsum dolor
-                                </h3>
-                                <p class="section3__box-text">
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <home-section-four></home-section-four>
 
-        <div class="section4">
-            <div class="container section4__section4-wrapper">
-                <div class="section4__title-wrapper">
-                    <h1 class="section4__section4-h1">For good times</h1>
-                    <h2 class="section4__section4-h2">ahead of us</h2>
-                </div>
-
-                <div class="section4__section4-content-wrapper">
-                    <p class="section4__text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                    <p class="section4__text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit
-                        adipisicing elit.
-                    </p>
-                    <p class="section4__text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit
-                        consectetur adipisicing elit.
-                    </p>
-
-                    <router-link to="/contact" class="section4__button"><span>Request a quote</span></router-link>
-                </div>
-            </div>
-        </div>
-
-        <div class="section5">
-            <div class="container">
-                <div class="elevated-boxes">
-                    <div class="elevated-boxes__wrapper">
-                        <div>
-                            <img
-                                class="elevated-boxes__top-img first-img"
-                                src="../assets/whybutterflydesign.svg"
-                                alt=""
-                            />
-                            <h3>Why butterfly design?</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit adipisicing elit. Lorem ipsum
-                                dolor sit amet consectetur adipisicing elit
-                                adipisicing elit. Lorem ipsum dolor sit amet
-                                consectetur adipisicing elit adipisicing elit.
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit adipisicing elit. Lorem ipsum
-                                dolor sit amet consectetur adipisicing elit
-                                adipisicing elit. Lorem ipsum dolor sit amet
-                                consectetur adipisicing elit adipisicing elit.
-                            </p>
-                        </div>
-                        <div class="elevated-boxes__elevated-box">
-                            <img
-                                class="elevated-boxes__top-img"
-                                src="../assets/missionandgoals.svg"
-                                alt=""
-                            />
-                            <h3>Mission and goals</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit adipisicing elit. Lorem ipsum
-                                dolor sit amet consectetur adipisicing elit
-                                adipisicing elit. Lorem ipsum dolor sit amet
-                                consectetur adipisicing elit adipisicing elit.
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit adipisicing elit. Lorem ipsum
-                                dolor sit amet consectetur adipisicing elit
-                                adipisicing elit.
-                            </p>
-                        </div>
-                        <div>
-                            <img
-                                class="elevated-boxes__top-img"
-                                src="../assets/aboutbutterflydesign.svg"
-                                alt=""
-                            />
-                            <h3>About butterfly design</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit adipisicing elit. Lorem ipsum
-                                dolor sit amet consectetur adipisicing elit
-                                adipisicing elit. Lorem ipsum dolor sit amet
-                                consectetur adipisicing elit adipisicing elit.
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit adipisicing elit. Lorem ipsum
-                                dolor sit amet consectetur adipisicing elit
-                                adipisicing elit. Lorem ipsum dolor sit amet
-                                consectetur adipisicing elit adipisicing elit.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <home-section-five></home-section-five>
 
         <div class="contact-section">
             <div class="container">
@@ -252,44 +19,27 @@
 </template>
 
 <script>
-import lottie from "vue-lottie/src/lottie.vue";
-import * as heroAnimation from "@/assets/hero-section.json";
-import * as section3Animation from "@/assets/section3-bg-butterfly";
-import contactForm from "../components/ContactForm.vue";
-
 export default {
     name: "Home",
     components: {
-        lottie,
-        contactForm,
-    },
-    data() {
-        return {
-            anim: null,
-            heroLottieOptions: {
-                animationData: heroAnimation.default,
-            },
-            section3Lottie: {
-                animationData: section3Animation.default,
-            },
-        };
-    },
-    methods: {
-        handleAnimation: function (anim) {
-            this.anim = anim;
-        },
-    },
+        homeIntro: () => import('./home/HomeIntro.vue'),
+        homeSectionTwo: () => import('./home/HomeSectionTwo.vue'),
+        homeSectionThree: () => import('./home/HomeSectionThree.vue'),
+        homeSectionFour: () => import('./home/HomeSectionFour.vue'),
+        homeSectionFive: () => import('./home/HomeSectionFive.vue'),
+        contactForm: () => import('@/components/ContactForm.vue'),
+    }
 };
 </script>
 
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
-@import "../assets/scss/_mixins.scss";
+@import "~@/assets/scss/_mixins.scss";
 
 .home {
     width: 100%;
     height: calc(100vh - 101px);
-    background: url("../assets/home-bg.svg");
+    background: url("~@/assets/home-bg.svg");
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 9rem;
@@ -370,10 +120,17 @@ export default {
         padding: 4rem 0 0;
     }
     &__text {
-        font-family: "MyriadPro";
+        font-family: "MyriadProLight";
         color: $white;
         padding: 1rem 3rem 0;
         font-size: 1.25rem;
+    }
+    &__link {
+        display: block;
+        text-align: center;
+        color: $white;
+        text-decoration: none;
+        padding-top: 1.5rem;
     }
 }
 
@@ -450,7 +207,7 @@ export default {
 
 .section4 {
     height: 100vh;
-    background: url("../assets/Section3-Butterfly-Arm.svg");
+    background: url("~@/assets/Section3-Butterfly-Arm.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right -15rem top;

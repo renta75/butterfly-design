@@ -1,4 +1,9 @@
 module.exports = {
+    pluginOptions: {
+        webpackBundleAnalyzer: {
+            openAnalyzer: true
+        }
+    },
     css: {
         loaderOptions: {
             sass: {

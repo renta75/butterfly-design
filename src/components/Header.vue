@@ -2,7 +2,7 @@
 	<nav class="header">
 		<div class="container header__wrapper">
 			<div class="header__logo">
-				<img alt="Logo" src="../assets/logo.svg">
+				<img alt="Logo" src="@/assets/logo.svg">
 			</div>
 			<ul class="header__list">
 				<li class="header__item"><router-link to="/">Home</router-link></li>
@@ -15,7 +15,7 @@
 </template>
 
 <style lang="scss">
-@import '../assets/scss/_variables.scss';
+@import '~@/assets/scss/_variables.scss';
 
 .header {
 	width: 100%;
@@ -25,6 +25,7 @@
 	right: 0;
 	z-index: 99999;
 	background-color: $dark-blue;
+	box-shadow: 0 0 10px #000;
 
 	&__wrapper {
 		display: flex;
@@ -34,7 +35,7 @@
 
     &__logo {
         width: 100%;
-        max-width: 300px;
+        max-width: 12.5rem;
 		margin-bottom: 1rem;
     }
 		&__list {

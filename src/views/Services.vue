@@ -7,130 +7,24 @@
         </div>
     </div>
 
-    <div class="container services-wrapper">
-        <div class="services-wrapper__box">
-            <img class="services-wrapper__top-img" src="../assets/services/Services-Development-icon.svg" alt="">
-            <h3 class="services-wrapper__heading">Development</h3>
-            <p class="services-wrapper__text">Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet
-            </p>
-            <router-link to="/services/web-development" class="services-wrapper__link"><span>Read More</span></router-link>
-        </div>
-        <div class="services-wrapper__box">
-            <img class="services-wrapper__top-img" src="../assets/services/Services-E-commerce-icon.svg" alt="">
-            <h3 class="services-wrapper__heading">E-commerce</h3>
-            <p class="services-wrapper__text">Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet
-            </p>
-            <router-link to="/services/e-commerce" class="services-wrapper__link"><span>Read More</span></router-link>
-        </div>
-        <div class="services-wrapper__box">
-            <img class="services-wrapper__top-img" src="../assets/services/Services-Maintenance-Icon.svg" alt="">
-            <h3 class="services-wrapper__heading">Maintenance</h3>
-            <p class="services-wrapper__text">Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet
-            </p>
-            <router-link to="/services/maintenance" class="services-wrapper__link"><span>Read More</span></router-link>
-        </div>
-        <div class="services-wrapper__box">
-            <img class="services-wrapper__top-img" src="../assets/services/Services-GraphicDesign-Icon.svg" alt="">
-            <h3 class="services-wrapper__heading">Graphic Design</h3>
-            <p class="services-wrapper__text">Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet,
-                Lorem ipsum dolor sit amet
-            </p>
-            <router-link to="/services/graphic-design" class="services-wrapper__link"><span>Read More</span></router-link>
-        </div>
-    </div>
+    <services-boxes></services-boxes>
 
-    <div class="services-why-us">
-        <div class="container services-why-us-headings">
-            <h2 class="services-why-us-headings__h2">Turning ideas into action, from start to finish</h2>
-            <h3 class="services-why-us-headings__h3">Why choose us?</h3>
-        </div>
-
-        <div class="container services-why-us__content-wrapper">
-          <div class="services-why-us__box-wrapper">
-            <div class="services-why-us__box-wrapper-row">
-              <div class="services-why-us__box">
-                <h3 class="services-why-us__box-heading">WE ARE LOREM IPSUM</h3>
-                <p class="services-why-us__box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu orci id eros elementum cursus sit amet sed tellus. Vestibulum efficitur in dolor finibus commodo. Donec augue lectus, tempus porttitor est nec, mollis bibendum libero. Mauris tempus feugiat risus at rhoncus. Ut convallis ipsum risus, in tincidunt tellus ullamcorper id. Suspendisse vitae odio vitae enim ultricies tincidunt. Vivamus condimentum nisl vitae lacinia maximus. Praesent pretium urna malesuada nulla vestibulum iaculis.</p>
-              </div>
-              <div class="services-why-us__box">
-                <h3 class="services-why-us__box-heading">WE ARE LOREM IPSUM</h3>
-                <p class="services-why-us__box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu orci id eros elementum cursus sit amet sed tellus. Vestibulum efficitur in dolor finibus commodo. Donec augue lectus, tempus porttitor est nec, mollis bibendum libero. Mauris tempus feugiat risus at rhoncus. Ut convallis ipsum risus, in tincidunt tellus ullamcorper id. Suspendisse vitae odio vitae enim ultricies tincidunt. Vivamus condimentum nisl vitae lacinia maximus. Praesent pretium urna malesuada nulla vestibulum iaculis.</p>
-              </div>
-            </div>
-            <div class="services-why-us__box-wrapper-row">
-              <div class="services-why-us__box">
-                <h3 class="services-why-us__box-heading">WE ARE LOREM IPSUM</h3>
-                <p class="services-why-us__box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu orci id eros elementum cursus sit amet sed tellus. Vestibulum efficitur in dolor finibus commodo. Donec augue lectus, tempus porttitor est nec, mollis bibendum libero. Mauris tempus feugiat risus at rhoncus. Ut convallis ipsum risus, in tincidunt tellus ullamcorper id. Suspendisse vitae odio vitae enim ultricies tincidunt. Vivamus condimentum nisl vitae lacinia maximus. Praesent pretium urna malesuada nulla vestibulum iaculis.</p>
-              </div>
-              <div class="services-why-us__box">
-                <h3 class="services-why-us__box-heading">WE ARE LOREM IPSUM</h3>
-                <p class="services-why-us__box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu orci id eros elementum cursus sit amet sed tellus. Vestibulum efficitur in dolor finibus commodo. Donec augue lectus, tempus porttitor est nec, mollis bibendum libero. Mauris tempus feugiat risus at rhoncus. Ut convallis ipsum risus, in tincidunt tellus ullamcorper id. Suspendisse vitae odio vitae enim ultricies tincidunt. Vivamus condimentum nisl vitae lacinia maximus. Praesent pretium urna malesuada nulla vestibulum iaculis.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="services-why-us__buttons">
-            <router-link to="/contact" class="services-why-us__button"><span>Services</span></router-link>
-            <router-link to="/contact" class="services-why-us__button"><span>Contact us</span></router-link>
-        </div>
-
-		<div class="container services-technologies">
-			<h2 class="services-technologies__h2">Technologies we trust!</h2>
-
-			<div class="services-technologies__tech">
-				<img src="../assets/services/bottom-section-wordpress.png" alt="">
-				<img src="../assets/services/bottom-section-bootstrap.png" alt="">
-				<img src="../assets/services/bottom-section-css.png" alt="">
-				<img src="../assets/services/bottom-section-HTML.png" alt="">
-				<img src="../assets/services/bottom-section-php.png" alt="">
-			</div>
-		</div>
-    </div>
+    <services-why-us></services-why-us>
   </div>
 </template>
 
+<script>
+export default {
+    name: 'Services',
+    components: {
+        servicesWhyUs: () => import('./services/ServicesWhyUs.vue'),
+        servicesBoxes: () => import('./services/ServicesBoxes.vue'),
+    }
+}
+</script>
+
 <style lang="scss">
-@import '../assets/scss/_mixins.scss';
+@import '~@/assets/scss/_mixins.scss';
 
 .services {
     .services-intro {
@@ -297,6 +191,56 @@
 			max-width: 6rem;
 		}
 	}
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .services {
+        .services-wrapper {
+            flex-direction: column;
+
+            &__box {
+                margin-bottom: 8rem;
+            }
+        }
+        .services-intro {
+            &__title-wrapper {
+                h1 {
+                    font-size: 3rem;
+                }
+                h2 {
+                    font-size: 2.25rem;
+                    top: -20px;
+                }
+            }
+        }
+        .services-why-us {
+            &__box-wrapper-row {
+                flex-direction: column;
+                margin: 0;
+            }
+            &__box {
+                width: 100%;
+                height: auto;
+                padding: 1.5rem;
+                margin: 1rem 0 0;
+            }
+            &__button {
+                font-size: 1rem;
+                max-width: 10rem;
+            }
+        }
+        .services-technologies {
+            &__tech {
+                display: block;
+                padding: 0;
+
+                img {
+                    margin: 1rem;
+                }
+            }
+        }
+    }
 }
 
 </style>

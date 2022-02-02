@@ -2,7 +2,7 @@
 	<nav class="footer">
 		<div class="container footer__wrapper">
             <div class="footer__logo-wrapper">
-                <img alt="Logo" src="../assets/logo.svg" class="footer__logo">
+                <img alt="Logo" src="@/assets/logo.svg" class="footer__logo">
                 <span class="footer__text">contact@butterfly.design</span>
                 <span class="footer__text">some street 123 NY</span>
                 <span class="footer__text">+123 45 666 666</span>
@@ -35,11 +35,11 @@
         </div>
 
         <div class="footer__icons">
-            <img src="../assets/contact/Icon-Facebook.svg" alt="">
-            <img src="../assets/contact/Icon-Instagram.svg" alt="">
-            <img src="../assets/contact/Icon-Telegram.svg" alt="">
-            <img src="../assets/contact/Icon-Twitter.svg" alt="">
-            <img src="../assets/contact/Icon-Youtube.svg" alt="">
+            <img src="@/assets/contact/Icon-Facebook.svg" alt="">
+            <img src="@/assets/contact/Icon-Instagram.svg" alt="">
+            <img src="@/assets/contact/Icon-Telegram.svg" alt="">
+            <img src="@/assets/contact/Icon-Twitter.svg" alt="">
+            <img src="@/assets/contact/Icon-Youtube.svg" alt="">
         </div>
 
         <p class="footer__copy">&copy; 2022 Butterfly Design by ELIXStudio</p>
@@ -47,8 +47,8 @@
 </template>
 
 <style lang="scss">
-@import '../assets/scss/_variables.scss';
-@import "../assets/scss/_mixins.scss";
+@import '~@/assets/scss/_variables.scss';
+@import "~@/assets/scss/_mixins.scss";
 
 .footer {
     background: #1c1831;
@@ -111,7 +111,7 @@
     &__icons {
 		display: flex;
         justify-content: center;
-        margin-top: 2rem;
+        padding-top: 2rem;
 
 		img {
 			max-width: 2rem;
@@ -123,6 +123,15 @@
         text-align: center;
         color: $white;
         padding: 2rem 0;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .footer {
+        &__wrapper {
+            display: none;
+        }
     }
 }
 </style>

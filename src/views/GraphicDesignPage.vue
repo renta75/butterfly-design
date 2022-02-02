@@ -1,117 +1,33 @@
 <template>
   <div class="graphic-design">
-    <div class="container graphic-design__intro">
-        <lottie :options="heroLottieOptions" v-on:animCreated="handleAnimation" class="graphic-design__intro" />
-        <div class="graphic-design__intro__text-wrapper">
-            <h2 class="graphic-design__intro__heading">GRAPHIC DESIGN</h2>
-            <p class="graphic-design__intro__text">We design with data, crafting solutions around real customer activity. Creating new brands and digital experiences that engage and excite the customer. We undertake to understand your business and customer needs in order to deliver a product or service that really makes a difference.
-            </p>
-        </div>
-    </div>
+    <graphic-design-intro></graphic-design-intro>
 
     <div class="graphic-design__main-section">
-        <div class="graphic-design__main-section__images-wrapper">
-            <div class="graphic-design__main-section__img">
-                <img src="../assets/graphic-design/IdentityDesign.svg" alt="">
-                <h3 class="graphic-design__main-section__h3">IDENTITY DESIGN</h3>
-            </div>
-            <div class="graphic-design__main-section__img">
-                <img src="../assets/graphic-design/BagsAndPackaging.svg" alt="">
-                <h3 class="graphic-design__main-section__h3">BAGS & PACKAGING</h3>
-            </div>
-            <div class="graphic-design__main-section__img">
-                <img src="../assets/graphic-design/BrochuresAndPublications.svg" alt="">
-                <h3 class="graphic-design__main-section__h3">BROCHURES & PUBLICATIONS</h3>
-            </div>
-            <div class="graphic-design__main-section__img">
-                <img src="../assets/graphic-design/MarketingCampaigns.svg" alt="">
-                <h3 class="graphic-design__main-section__h3">MARKETING CAMPAIGNS</h3>
-            </div>
-            <div class="graphic-design__main-section__img">
-                <img src="../assets/graphic-design/RetailAndMerchandising.svg" alt="">
-                <h3 class="graphic-design__main-section__h3">RETAIL & MERCHANDISING</h3>
-            </div>
-            <div class="graphic-design__main-section__img">
-                <img src="../assets/graphic-design/ExhibitionDesign.svg" alt="">
-                <h3 class="graphic-design__main-section__h3">EXHIBITION DESIGN</h3>
-            </div>
-            <div class="graphic-design__main-section__img">
-                <img src="../assets/graphic-design/AdvertisingCampaign.svg" alt="">
-                <h3 class="graphic-design__main-section__h3">ADVERTISING CAMPAIGN</h3>
-            </div>
-            <div class="graphic-design__main-section__img">
-                <img src="../assets/graphic-design/WebsiteAndAppDesign.svg" alt="">
-                <h3 class="graphic-design__main-section__h3">WEBSITE & APP DESIGN</h3>
-            </div>
-        </div>
+        <graphic-design-images></graphic-design-images>
 
         <router-link to="/contact" class="graphic-design__button"><span>Contact us</span></router-link>
 
-        <div class="graphic-design__quote-section">
-            <div class="graphic-design__quote-section__quote-wrapper">
-                <p class="graphic-design__quote-section__quote">
-                    Good design’s not about what medium you’re working in. It’s about thinking hard about what you want to do and what you have to work with before you start.
-                </p>
+        <graphic-design-quote></graphic-design-quote>
 
-                <p class="graphic-design__quote-section__quote">Susan Kare</p>
-            </div>
-
-            <div class="graphic-design__quote-section__quote-img">
-                <img src="../assets/graphic-design/PAGE-GraphDesign-mobile.png" alt="">
-            </div>
-        </div>
-
-        <div class="graphic-design__main-section__other-services">
-            <h2 class="graphic-design__main-section__other-services-h2">Check other services or contact us</h2>
-
-            <div class="graphic-design__main-section__other-services-wrapper">
-                <div class="graphic-design__main-section__other-service">
-                    <img src="../assets/services/Services-Development-icon.svg" alt="">
-                    <router-link to="/services/web-development" class="maintenance__main-section__other-service-heading"><span>DEVELOPMENT</span></router-link>
-                </div>
-
-                <div class="graphic-design__main-section__other-service">
-                    <img src="../assets/services/Services-E-commerce-icon.svg" alt="">
-                    <router-link to="/services/e-commerce" class="maintenance__main-section__other-service-heading"><span>E-COMMERCE</span></router-link>
-                </div>
-
-                <div class="graphic-design__main-section__other-service">
-                    <img src="../assets/services/Services-Maintenance-Icon.svg" alt="">
-                    <router-link to="/services/maintenance" class="maintenance__main-section__other-service-heading"><span>MAINTENANCE</span></router-link>
-                </div>
-            </div>
-        </div>
+        <graphic-design-other-services></graphic-design-other-services>
     </div>
   </div>
 </template>
 
 <script>
-import lottie from 'vue-lottie/src/lottie.vue';
-import * as heroAnimation from "@/assets/graphic-design/GraphicDesign.json";
-
 export default {
-  name: 'Home',
+  name: 'GraphicDesign',
   components: {
-    lottie
-  },
-  data() {
-    return {
-     anim: null,
-     heroLottieOptions: {
-       animationData: heroAnimation.default
-     }
-    };
-  },
-  methods: {
-    handleAnimation: function (anim) {
-      this.anim = anim;
-    }
+      graphicDesignIntro: () => import('./graphic-design/GraphicDesignIntro.vue'),
+      graphicDesignImages: () => import('./graphic-design/GraphicDesignImages.vue'),
+      graphicDesignQuote: () => import('./graphic-design/GraphicDesignQuote.vue'),
+      graphicDesignOtherServices: () => import('./graphic-design/GraphicDesignOtherServices.vue'),
   }
 }
 </script>
 
 <style lang="scss">
-@import '../assets/scss/_mixins.scss';
+@import '~@/assets/scss/_mixins.scss';
 
 .graphic-design {
     &__intro {
@@ -220,7 +136,7 @@ export default {
                 height: 1rem;
                 width: 1rem;
                 background-size: 1rem 1rem;
-                background-image: url('../assets/Icon-Kvacica.svg');
+                background-image: url('~@/assets/Icon-Kvacica.svg');
                 background-repeat: no-repeat;
             }
         }
