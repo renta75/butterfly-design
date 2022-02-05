@@ -17,7 +17,7 @@
             <img src="@/assets/contact/HireUs.svg" alt="" class="contact__contact-info__image image-size">
             <h3 class="contact__contact-info__heading">HIRE US!</h3>
             <p class="contact__contact-info__text">Send us your brief, we’re ready</p>
-            <p class="contact__contact-info__pink">info@butterfly.design</p>
+            <p class="contact__contact-info__pink">info../butterfly.design</p>
         </div>
         <div class="contact__contact-info__creative">
             <img src="@/assets/contact/Creative.svg" alt="" class="contact__contact-info__image">

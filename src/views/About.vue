@@ -19,7 +19,7 @@ export default {
     name: 'About',
     components: {
         aboutIntro: () => import('./about/AboutIntro.vue'),
-        aboutMetamorph: () => import('./about/AboutMetamorph.vue'),
+        aboutMetamorph: () => import('./about/AboutMetamorphSection.vue'),
         aboutCarousel: () => import('./about/AboutCarousel.vue'),
     }
 }

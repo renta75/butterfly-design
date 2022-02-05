@@ -47,8 +47,8 @@
 </template>
 
 <style lang="scss">
-@import '~@/assets/scss/_variables.scss';
-@import "~@/assets/scss/_mixins.scss";
+@import '@/assets/scss/_variables.scss';
+@import '@/assets/scss/_mixins.scss';
 
 .footer {
     background: #1c1831;

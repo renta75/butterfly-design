@@ -1,9 +1,4 @@
 module.exports = {
-    pluginOptions: {
-        webpackBundleAnalyzer: {
-            openAnalyzer: true
-        }
-    },
     css: {
         loaderOptions: {
             sass: {
@@ -11,5 +6,5 @@ module.exports = {
             }
         }
     },
-    publicPath: process.env.NODE_ENV === 'production' ? '/butterfly-design/' : '/'
+    publicPath: '/'
 };

@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import HeaderGlobal from '@/components/Header.vue';
-import FooterGlobal from '@/components/Footer.vue';
+import HeaderGlobal from './components/Header.vue';
+import FooterGlobal from './components/Footer.vue';
 
 export default {
 	components: {
@@ -26,5 +26,5 @@ export default {
 </script>
 
 <style lang="scss">
-  @import '~@/assets/scss/_main.scss';
+  @import '@/assets/scss/_main.scss';
 </style>

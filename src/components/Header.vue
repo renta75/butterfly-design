@@ -15,7 +15,7 @@
 </template>
 
 <style lang="scss">
-@import '~@/assets/scss/_variables.scss';
+@import '@/assets/scss/_variables.scss';
 
 .header {
 	width: 100%;

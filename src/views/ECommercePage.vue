@@ -34,7 +34,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '~@/assets/scss/_mixins.scss';
+@import '@/assets/scss/_mixins.scss';
 
 .e-commerce {
     &__elevated-boxes {
