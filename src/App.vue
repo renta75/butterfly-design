@@ -21,6 +21,9 @@ export default {
       lang: 'en',
       amp: true
     }
+  },
+  mounted() {
+    console.log(process.env.NODE_ENV);
   }
 }
 </script>
