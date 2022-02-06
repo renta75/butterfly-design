@@ -31,3 +31,10 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
+
+.website-wrapper {
+    background: url("~@/assets/BG-Dots.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

@@ -46,12 +46,12 @@ export default {
 
 .contact {
     &__intro-wrapper {
-        margin-top: 12rem;
+        padding-top: 12rem;
     }
 
     &__title-wrapper {
         text-align: center;
-        margin: 8rem 0;
+        margin-bottom: 8rem;
 
         h1 {
             font-family: 'Colombo';

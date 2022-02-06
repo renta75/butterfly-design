@@ -32,9 +32,23 @@ export default {
 .maintenance {
     &__intro {
         @include service-page-intro;
+        background-color: $dark-blue;
+        height: 100vh;
+        box-shadow: 0 40px 40px $dark-blue;
+        padding-top: 8rem;
+
+        .container {
+            display: flex;
+        }
+
+        video {
+            width: 40%;
+            position: relative;
+            top: -3rem;
+        }
 
         &__text-wrapper {
-            margin: 3rem 0 0 1rem;
+            margin: 5rem 0 0 1rem;
         }
 
         &__subheading {

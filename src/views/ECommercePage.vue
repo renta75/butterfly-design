@@ -37,6 +37,35 @@ export default {
 @import '@/assets/scss/_mixins.scss';
 
 .e-commerce {
+    &__intro {
+        @include service-page-intro;
+        background-color: $dark-blue;
+        height: 100vh;
+        box-shadow: 0 40px 40px $dark-blue;
+        padding-top: 8rem;
+
+        .container {
+            display: flex;
+        }
+
+        video {
+            width: 40%;
+            position: relative;
+            top: -3rem;
+        }
+
+        &__text-wrapper {
+            margin: 5rem 0 0 1rem;
+        }
+
+        &__subheading {
+            font-size: 4rem;
+            color: $pink;
+            font-family: 'Montserrat';
+            margin: 2rem 0;
+        }
+    }
+
     &__elevated-boxes {
         position: relative;
         border-radius: 5px;
@@ -59,21 +88,6 @@ export default {
 
         &__regular-img {
             max-width: 8rem;
-        }
-    }
-
-    &__intro {
-        @include service-page-intro;
-
-        &__text-wrapper {
-            margin-left: 1rem;
-        }
-
-        &__subheading {
-            font-size: 4rem;
-            color: $pink;
-            font-family: 'Montserrat';
-            margin: 2rem 0;
         }
     }
 

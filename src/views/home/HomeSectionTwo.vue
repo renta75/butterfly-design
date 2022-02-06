@@ -2,7 +2,7 @@
     <div class="container section2">
         <div class="laptop">
             <img
-                src="@/assets/Laptop-WebDevelopment.svg"
+                src="@/assets/Laptop-Webdevelopment.png"
                 alt=""
                 class="laptop__image"
             />
@@ -19,7 +19,7 @@
         </div>
         <div class="laptop">
             <img
-                src="@/assets/Laptop-Ecommerce.svg"
+                src="@/assets/Laptop-eCommerce.png"
                 alt=""
                 class="laptop__image"
             />
@@ -36,7 +36,7 @@
         </div>
         <div class="laptop">
             <img
-                src="@/assets/Laptop-Maintenance.svg"
+                src="@/assets/Laptop-Maintenance.png"
                 alt=""
                 class="laptop__image"
             />
@@ -53,7 +53,7 @@
         </div>
         <div class="laptop">
             <img
-                src="@/assets/Laptop-GraphDesign.svg"
+                src="@/assets/Laptop-GraphicDesign.png"
                 alt=""
                 class="laptop__image"
             />

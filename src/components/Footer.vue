@@ -56,7 +56,7 @@
 
     &__logo {
         max-width: 12rem;
-        padding-top: 1rem;
+        padding-top: 2.25rem;
     }
 
     &__wrapper {
@@ -75,7 +75,7 @@
     &__text {
         color: $white;
         display: block;
-        padding: 0.25rem 0;
+        padding: .25rem 0;
     }
 
     &__newsletter-field {

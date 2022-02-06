@@ -38,11 +38,7 @@ export default {
 
 .home {
     width: 100%;
-    height: calc(100vh - 101px);
-    background: url("~@/assets/home-bg.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-top: 9rem;
+    height: calc(100vh - 69px);
 
     &__hero-section {
         display: flex;
@@ -55,14 +51,13 @@ export default {
         padding-left: 240px;
         position: relative;
         z-index: 10;
-        margin-top: 3rem;
+        padding-top: 12rem;
     }
     &__hero-section-h1 {
         font-family: "Colombo";
         color: $teal;
         font-size: 13rem;
         text-transform: uppercase;
-        padding-top: 5rem;
     }
     &__hero-section-h2 {
         font-family: "Montserrat";
@@ -71,13 +66,35 @@ export default {
         font-weight: 300;
         text-transform: uppercase;
         position: absolute;
-        top: 200px;
+        top: 300px;
     }
     &__hero-section-subheading {
         font-family: "MyriadPro";
         font-size: 36px;
         color: $white;
         padding-top: 8rem;
+    }
+    &__hero-section-buttons {
+        display: flex;
+        &__button {
+            @include button;
+            max-width: 13rem;
+            margin-top: 6rem;
+            position: relative;
+
+            &:nth-child(1) {
+                margin-right: 3rem;
+            }
+        }
+        &__button-img {
+            position: absolute;
+            max-width: 3rem;
+            left: -1rem;
+            top: 0.55rem;
+        }
+        .gear-icon {
+            top: 0.25rem;
+        }
     }
     &__hero-section-butterfly-image {
         width: 960px;
@@ -91,6 +108,7 @@ export default {
 .section2 {
     display: flex;
     justify-content: space-between;
+    margin: 5rem auto;
 }
 
 .laptop {
@@ -98,6 +116,7 @@ export default {
     &__image {
         position: relative;
         z-index: 10;
+        width: 100%;
     }
     &__content {
         background: linear-gradient(
@@ -206,7 +225,7 @@ export default {
 }
 
 .section4 {
-    height: 100vh;
+    height: 85vh;
     background: url("~@/assets/Section3-Butterfly-Arm.svg");
     background-size: contain;
     background-repeat: no-repeat;

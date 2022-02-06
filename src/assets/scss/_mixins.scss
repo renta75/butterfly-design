@@ -104,7 +104,8 @@
 
 @mixin service-page-intro {
     display: flex;
-    margin: 10rem auto 3rem;
+    margin: 0 auto 3rem;
+    padding-top: 10rem;
 
     &__heading {
         font-size: 7rem;

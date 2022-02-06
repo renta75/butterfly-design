@@ -30,12 +30,12 @@ export default {
 
 .about {
     &__intro-wrapper {
-        margin-top: 12rem;
+        padding-top: 12rem;
     }
 
     &__title-wrapper {
         text-align: center;
-        margin: 8rem 0;
+        margin-bottom: 8rem;
 
         h1 {
             font-family: "Colombo";
@@ -78,6 +78,11 @@ export default {
 
     &__metamorph {
         margin-top: 20rem;
+        background-color: $dark-blue;
+        height: 100vh;
+        box-shadow: 0 40px 40px $dark-blue, 0 -40px 100px $dark-blue;
+        padding-top: 8rem;
+        width: 100%;
 
         &__heading {
             color: $white;

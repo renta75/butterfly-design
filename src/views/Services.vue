@@ -30,7 +30,7 @@ export default {
     .services-intro {
         &__title-wrapper {
             text-align: center;
-            margin: 12rem 0 8rem;
+            padding: 12rem 0 8rem;
             @include overlapping-headers;
         }
     }

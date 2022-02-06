@@ -32,16 +32,27 @@ export default {
 .graphic-design {
     &__intro {
         @include service-page-intro;
-        width: 80%;
-        align-items: flex-start;
+        background-color: $dark-blue;
+        height: 100vh;
+        box-shadow: 0 40px 40px $dark-blue;
+        padding-top: 8rem;
+
+        .container {
+            display: flex;
+        }
+
+        video {
+            width: 40%;
+            position: relative;
+            top: -3rem;
+        }
 
         &__text-wrapper {
-            margin-left: 1rem;
-            margin-top: 3rem;
-            width: 100%;
+            margin: 5rem 0 0 1rem;
         }
 
         &__text {
+            width: 80%;
             margin-top: 2rem;
         }
     }
@@ -71,7 +82,6 @@ export default {
 
     &__main-section {
         width: 100%;
-        max-width: 960px;
         margin: 0 auto;
         text-align: center;
 
@@ -91,6 +101,8 @@ export default {
         &__images-wrapper {
             display: flex;
             flex-wrap: wrap;
+            max-width: 960px;
+            margin: 0 auto;
         }
 
         &__img {
@@ -174,8 +186,16 @@ export default {
     }
 
     &__quote-section {
-        display: flex;
-        align-items: center;
+        background-color: $dark-blue;
+        box-shadow: 0 40px 40px $dark-blue, 0 -40px 100px $dark-blue;
+        padding-top: 8rem;
+
+        .container {
+            display: flex;
+            align-items: center;
+            max-width: 960px;
+            margin: 0 auto;
+        }
 
         div {
             flex: 0 0 50%;
