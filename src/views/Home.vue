@@ -164,6 +164,8 @@ export default {
         object-fit: cover;
         position: absolute;
         top: 1rem;
+        mix-blend-mode: lighten;
+        opacity: 0.8;
     }
     &__section3-wrapper {
         position: relative;
