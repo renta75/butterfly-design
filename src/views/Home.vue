@@ -117,6 +117,7 @@ export default {
         position: relative;
         z-index: 10;
         width: 100%;
+        top: 1.25rem;
     }
     &__content {
         background: linear-gradient(
@@ -124,11 +125,12 @@ export default {
             rgb(22, 255, 255, 0.2) 0%,
             rgb(255, 24, 247, 0.2) 100%
         );
-        height: 20rem;
+        height: 21rem;
         position: relative;
         top: -7rem;
         display: block;
         text-decoration: none;
+        padding-top: 1rem;
     }
     &__heading {
         font-family: "Colombo";
@@ -154,6 +156,15 @@ export default {
 }
 
 .section3 {
+    position: relative;
+
+    &__background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: absolute;
+        top: 1rem;
+    }
     &__section3-wrapper {
         position: relative;
         text-align: center;
@@ -182,7 +193,7 @@ export default {
         justify-content: center;
         text-align: left;
         width: 50%;
-        height: 20rem;
+        height: 22rem;
         padding: 0 10rem;
     }
     &__box:nth-child(odd) {

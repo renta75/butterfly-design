@@ -1,5 +1,8 @@
 <template>
     <div class="section3">
+        <video class="section3__background-video" autoplay loop muted>
+            <source src="@/assets/section3-bg-butterfly.mp4" type="video/mp4">
+        </video>
         <div class="container section3__section3-wrapper">
             <div class="section3__title-wrapper">
                 <h1 class="section3__section3-h1">We help smart</h1>
