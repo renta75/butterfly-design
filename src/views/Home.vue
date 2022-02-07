@@ -168,14 +168,6 @@ export default {
         position: relative;
         margin-bottom: 10rem;
     }
-    &__lottieAnimation {
-        max-width: 50rem;
-    }
-    &__box-wrapper {
-        position: absolute;
-        top: 0;
-        width: 100%;
-    }
     &__box-wrapper-row {
         display: flex;
         justify-content: space-between;

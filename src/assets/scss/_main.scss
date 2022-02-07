@@ -5,18 +5,22 @@
     font-family: 'Colombo';
     src: url('~@/assets/Colombo.woff2') format('woff2'),
     url('~@/assets/Colombo.woff') format('woff');
+    font-display: swap;
 }
 @font-face {
     font-family: 'MyriadPro';
-    src: url('~@/assets/MyriadPro.woff') format('woff')
+    src: url('~@/assets/MyriadPro.woff') format('woff');
+    font-display: swap;
 }
 @font-face {
     font-family: 'MyriadProLight';
-    src: url('~@/assets/Fonts/MyriadPro/MyriadPro-Light.otf') format('opentype')
+    src: url('~@/assets/Fonts/MyriadPro/MyriadPro-Light.otf') format('opentype');
+    font-display: swap;
 }
 @font-face {
     font-family: 'Montserrat';
-    src: url('~@/assets/Fonts/Montserrat/Montserrat-Light.ttf') format('opentype')
+    src: url('~@/assets/Fonts/Montserrat/Montserrat-Light.ttf') format('opentype');
+    font-display: swap;
 }
 
 body {

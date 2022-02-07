@@ -118,9 +118,6 @@ export default {
 		position: relative;
 		margin-bottom: 10rem;
 	}
-	&__lottieAnimation {
-		max-width: 50rem;
-	}
 	&__box-wrapper {
 		width: 100%;
 	}

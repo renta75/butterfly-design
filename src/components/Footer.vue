@@ -2,7 +2,7 @@
 	<nav class="footer">
 		<div class="container footer__wrapper">
             <div class="footer__logo-wrapper">
-                <img alt="Logo" src="@/assets/logo.svg" class="footer__logo">
+                <img alt="Logo" src="@/assets/logo.svg" class="footer__logo" width="">
                 <span class="footer__text">contact@butterfly.design</span>
                 <span class="footer__text">some street 123 NY</span>
                 <span class="footer__text">+123 45 666 666</span>
@@ -55,6 +55,8 @@
     margin-top: 5rem;
 
     &__logo {
+        width: 100%;
+        height: 100%;
         max-width: 12rem;
         padding-top: 2.25rem;
     }
@@ -114,6 +116,8 @@
         padding-top: 2rem;
 
 		img {
+            width: 100%;
+            height: 100%;
 			max-width: 2rem;
 			margin-right: 1rem;
 		}

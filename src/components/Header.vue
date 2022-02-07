@@ -34,9 +34,13 @@
 	}
 
     &__logo {
-        width: 100%;
         max-width: 12.5rem;
 		margin-bottom: 1rem;
+
+		img {
+			width: 100%;
+			height: 100%;
+		}
     }
 		&__list {
 			display: flex;
