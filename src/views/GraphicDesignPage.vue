@@ -48,6 +48,7 @@ export default {
         }
 
         &__text-wrapper {
+            width: 60%;
             margin: 5rem 0 0 1rem;
         }
 

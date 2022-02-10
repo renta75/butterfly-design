@@ -55,6 +55,7 @@ export default {
         }
 
         &__text-wrapper {
+            width: 60%;
             margin: 5rem 0 0 1rem;
         }
 
@@ -247,6 +248,97 @@ export default {
             color: $pink;
             display: block;
             text-decoration: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .e-commerce {
+        padding: 0 0.5rem;
+
+        &__intro {
+            height: auto;
+
+            .container {
+                flex-direction: column;
+            }
+            &__text-wrapper {
+                margin: 0;
+                width: 100%;
+                text-align: center;
+            }
+            &__heading {
+                font-size: 3rem;
+            }
+            &__subheading {
+                font-size: 2rem;
+            }
+            video {
+                width: 100%;
+            }
+        }
+
+        &__elevated-boxes {
+            &__wrapper {
+                flex-direction: column;
+                max-height: none;
+            }
+        }
+
+        .section-accordions {
+            &__wrapper {
+                flex-direction: column-reverse;
+            }
+            &__heading {
+                font-size: 2.5rem;
+            }
+            .vsa-item__trigger__content {
+                text-align: left;
+            }
+        }
+
+        .inline-boxes {
+            flex-direction: column;
+            margin-top: 5rem;
+
+            &__box {
+                height: 25rem;
+                flex: auto;
+                margin: 1rem;
+            }
+            &__image {
+                margin: 1rem 0;
+                position: relative;
+                top: 0;
+                left: 0;
+                transform: none;
+            }
+            &__heading {
+                margin: 0;
+            }
+            &__text {
+                padding: 2rem;
+            }
+        }
+
+        .ecommerce {
+            &__bottom-section {
+                &__list-wrapper {
+                    flex-direction: column;
+                    padding: 2rem 0;
+                }
+                &__list {
+                    padding: 0;
+                }
+                &__other-services-h2 {
+                    &:before, &:after {
+                        display: none;
+                    }
+                }
+                &__other-service-heading {
+                    font-size: 0.75rem;
+                }
+            }
         }
     }
 }

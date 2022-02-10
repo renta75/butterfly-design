@@ -2,7 +2,9 @@
 	<nav class="header">
 		<div class="container header__wrapper">
 			<div class="header__logo">
-				<img alt="Logo" src="@/assets/logo.svg">
+				<router-link to="/">
+					<img alt="Logo" src="@/assets/menu-logo.svg">
+				</router-link>
 			</div>
 			<ul class="header__list">
 				<li class="header__item"><router-link to="/">Home</router-link></li>
@@ -34,11 +36,10 @@
 	}
 
     &__logo {
-        max-width: 12.5rem;
 		margin-bottom: 1rem;
 
 		img {
-			width: 100%;
+			width: 12.5rem;
 			height: 100%;
 		}
     }

@@ -191,7 +191,7 @@ export default {
 }
 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 767px) {
     .services {
         .services-wrapper {
             flex-direction: column;

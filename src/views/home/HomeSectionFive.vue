@@ -64,6 +64,25 @@
                     </div>
                 </div>
             </div>
+
+            <div class="section5__contact">
+                <router-link to="/about" class="section5__button"><span>About us</span></router-link>
+
+                <h3 class="section5__contact__heading">Let's build something great together</h3>
+
+                <div class="section5__contact__text">
+                    <span>Call back assistance</span>
+                    <span class="section5__contact__slash"></span>
+                    <span>Project consulting</span>
+                    <span class="section5__contact__slash"></span>
+                    <span>Detailed project estimate</span>
+                </div>
+
+                <div class="section5__contact__buttons">
+                    <router-link to="/contact" class="section5__button-email"><img src="@/assets/Button-Email.svg" alt="" class="section5__contact__icon"><span>contact@butterfly.design</span></router-link>
+                    <router-link to="/contact" class="section5__button-phone"><img src="@/assets/Button-Phone.svg" alt="" class="section5__contact__icon phone-icon"><span>+353 879827181</span></router-link>
+                </div>
+            </div>
         </div>
     </div>
 </template>

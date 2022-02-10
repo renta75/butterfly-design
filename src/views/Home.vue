@@ -263,7 +263,6 @@ export default {
 }
 
 .section5 {
-    height: 75vh;
     padding-top: 8rem;
 
     .elevated-boxes {
@@ -271,6 +270,70 @@ export default {
         position: relative;
         border-radius: 5px;
         margin-top: 5rem;
+    }
+
+    &__button {
+		@include button;
+		max-width: 18rem;
+		margin: 8rem 0 5rem;
+	}
+
+    &__button-email {
+		@include button;
+		width: 28rem;
+		margin: 2rem 0;
+        text-transform: lowercase;
+        position: relative;
+	}
+
+    &__button-phone {
+		@include button;
+		width: 28rem;
+		margin: 2rem 0;
+        position: relative;
+	}
+
+    &__contact {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 8rem;
+
+        &__heading {
+            font-size: 2rem;
+            color: $white;
+            margin-top: 5rem;
+        }
+        &__text {
+            display: flex;
+            align-items: center;
+            font-size: 1.25rem;
+            color: $white;
+            margin: 3rem 0 2rem;
+        }
+        &__slash {
+            background: $teal;
+            width: 2.5rem;
+            height: 2px;
+            display: inline-block;
+            transform: rotate(115deg);
+        }
+        &__buttons {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 50rem;
+
+            .phone-icon {
+                top: 0.25rem;
+            }
+        }
+        &__icon {
+            position: absolute;
+            max-width: 3rem;
+            left: -1rem;
+            top: 0.55rem;
+        }
     }
 }
 </style>

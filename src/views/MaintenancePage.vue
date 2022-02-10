@@ -48,6 +48,7 @@ export default {
         }
 
         &__text-wrapper {
+            width: 60%;
             margin: 5rem 0 0 1rem;
         }
 
@@ -222,6 +223,12 @@ export default {
             display: block;
             text-decoration: none;
         }
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .maintenance {
     }
 }
 
