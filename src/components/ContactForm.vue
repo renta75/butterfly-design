@@ -110,4 +110,30 @@
 		}
 	}
 }
+
+
+@media only screen and (max-width: 767px) {
+	.contact-form {
+		height: auto;
+		padding: 0 0.5rem;
+
+		&__wrapper {
+			flex-direction: column;
+
+			input, textarea {
+				width: 100%;
+			}
+		}
+
+		&__frm-wrapper, &__info {
+			width: 100%;
+		}
+
+		&__info {
+			&__heading {
+				width: 100%;
+			}
+		}
+	}
+}
 </style>

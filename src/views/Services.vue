@@ -190,6 +190,52 @@ export default {
 	}
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .services {
+        padding: 0 0.5rem;
+
+        .services-intro {
+            &__title-wrapper {
+                padding: 9rem 0 5rem;
+
+                h1 {
+                    font-size: 4rem;
+                }
+                h2 {
+                    font-size: 3.5rem;
+                    top: -2rem;
+                }
+            }
+        }
+
+        .services-wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+
+            &__box {
+                flex: 0 0 45%;
+                margin: 1rem;
+            }
+
+            &__top-img {
+                position: relative;
+                top: 0;
+                left: 0;
+                transform: none;
+            }
+
+            &__heading {
+                padding: 1.5rem 0;
+            }
+        }
+
+        .services-why-us {
+            &__box {
+                padding: 1rem;
+            }
+        }
+    }
+}
 
 @media only screen and (max-width: 767px) {
     .services {

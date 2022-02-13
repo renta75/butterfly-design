@@ -6,7 +6,7 @@
             <vsa-list>
                 <vsa-item>
                     <vsa-heading>
-                    Creative solutions for smart businesses
+                    Creative solutions
                     </vsa-heading>
 
                     <vsa-content>

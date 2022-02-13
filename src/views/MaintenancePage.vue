@@ -7,6 +7,8 @@
 
         <maintenance-images></maintenance-images>
 
+        <h2 class="maintenance__main-section__other-services-h2">Pick the right plan for you</h2>
+
         <maintenance-elevated-boxes></maintenance-elevated-boxes>
 
         <maintenance-other-services></maintenance-other-services>
@@ -229,6 +231,76 @@ export default {
 
 @media only screen and (max-width: 767px) {
     .maintenance {
+        padding: 0 0.5rem;
+
+        &__intro {
+            .container {
+                flex-direction: column;
+            }
+            video {
+                width: 100%;
+                top: 0;
+            }
+            &__text-wrapper {
+                width: 100%;
+                margin: 0;
+                text-align: center;
+            }
+            &__heading {
+                font-size: 3rem;
+            }
+            &__subheading {
+                font-size: 2rem;
+                width: 100%;
+            }
+            &__text {
+                width: 100%;
+            }
+        }
+
+        &__main-section {
+            &__img {
+                width: 100%;
+                flex: 1 1 auto;
+                padding: 0 2rem;
+            }
+
+            &__other-services-h2 {
+                &:before, &:after {
+                    display: none;
+                }
+            }
+
+            &__other-service-heading {
+                font-size: 0.75rem;
+            }
+        }
+
+        &__elevated-boxes {
+            ::after {
+                display: none;
+            }
+
+            &__wrapper {
+                flex-direction: column;
+                max-height: fit-content;
+
+                div {
+                    flex: 1 1 auto;
+                    border: 2px solid $teal;
+                }
+            }
+
+            &__elevated-box {
+                height: auto;
+                top: 0;
+                margin: 1rem 0;
+            }
+
+            &__button {
+                margin: 2rem auto;
+            }
+        }
     }
 }
 

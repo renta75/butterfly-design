@@ -98,4 +98,46 @@ export default {
     }
 }
 
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .contact {
+        padding: 0 0.5rem;
+
+        &__intro-wrapper {
+            padding-top: 7rem;
+        }
+
+        &__contact-info {
+            div {
+                padding: 0.5rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .contact {
+        &__intro-wrapper {
+            padding-top: 10rem;
+        }
+
+        &__title-wrapper {
+            margin-bottom: 5rem;
+
+            h1 {
+                font-size: 3rem;
+            }
+        }
+
+        &__contact-info {
+            flex-direction: column;
+
+            div {
+                flex: 1 1 auto;
+                padding: 3rem 2rem;
+            }
+        }
+    }
+}
+
 </style>

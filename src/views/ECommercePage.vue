@@ -254,7 +254,7 @@ export default {
 
 @media only screen and (max-width: 767px) {
     .e-commerce {
-        padding: 0 0.5rem;
+        padding: 0;
 
         &__intro {
             height: auto;

@@ -225,4 +225,70 @@ export default {
     }
 }
 
+
+@media only screen and (max-width: 767px) {
+    .graphic-design {
+        padding: 0 0.5rem;
+
+        &__intro {
+            .container {
+                flex-direction: column;
+            }
+            video {
+                width: 100%;
+                top: 0;
+            }
+            &__text-wrapper {
+                width: 100%;
+                margin: 0;
+                text-align: center;
+            }
+            &__heading {
+                font-size: 3rem;
+            }
+            &__subheading {
+                font-size: 2rem;
+                width: 100%;
+            }
+            &__text {
+                width: 100%;
+            }
+        }
+
+        &__main-section {
+            &__img {
+                width: 100%;
+                flex: 1 1 auto;
+                padding: 2rem 0;
+            }
+
+            &__h3 {
+                padding-top: 1rem;
+            }
+
+            &__other-services-h2 {
+                &:before, &:after {
+                    display: none;
+                }
+            }
+
+            &__other-service-heading {
+                font-size: 0.75rem;
+            }
+        }
+
+        &__quote-section {
+            padding: 0;
+
+            .container {
+                flex-direction: column;
+            }
+
+            &__quote-wrapper {
+                background: linear-gradient(180deg, rgba(22, 255, 255, 0.25) 0%, rgba(19, 0, 55, 0) 100%);
+            }
+        }
+    }
+}
+
 </style>

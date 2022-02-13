@@ -192,4 +192,151 @@ export default {
     padding: 0 !important;
     margin: 0.25rem;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+    .about {
+        &__intro-wrapper {
+            padding-top: 7rem;
+        }
+
+        &__large-butterfly {
+            padding-left: 7rem;
+
+            &__heading {
+                font-size: 3rem;
+            }
+
+            &__img {
+                max-width: 20rem;
+                top: 15rem;
+                right: 0;
+            }
+        }
+
+        &__title-wrapper {
+            margin-bottom: 1rem;
+        }
+
+        &__metamorph {
+            margin-top: 5rem;
+            height: auto;
+
+            &__heading {
+                margin: 0;
+            }
+
+            &__wrapper {
+                align-items: center;
+
+                img {
+                    width: 50%;
+                    height: 50%;
+                }
+            }
+        }
+
+        &__overlapping-headers {
+            h1 {
+                font-size: 3.25rem;
+            }
+
+            h2 {
+                font-size: 3rem;
+                top: -1.75rem;
+            }
+        }
+
+        &__contact {
+            padding: 0 2rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .about {
+        padding: 0 0.5rem;
+
+        &__intro-wrapper {
+            padding-top: 10rem;
+
+            h1 {
+                font-size: 3.5rem;
+            }
+        }
+
+        &__title-wrapper {
+            margin-bottom: 2rem;
+        }
+
+        &__large-butterfly {
+            padding: 0;
+
+            &__text-wrapper {
+                width: 100%;
+            }
+
+            &__heading {
+                font-size: 2rem;
+                text-align: center;
+            }
+
+            &__text {
+                font-size: 1.25rem;
+            }
+
+            &__img {
+                max-width: 15rem;
+                top: 15rem;
+                right: -5rem;
+            }
+        }
+
+        &__metamorph {
+            margin-top: 5rem;
+            height: auto;
+
+            &__heading {
+                font-size: 1.75rem;
+            }
+
+            &__wrapper {
+                display: block;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            &__lists {
+                padding: 0;
+            }
+        }
+
+        &__overlapping-headers {
+            h1 {
+                font-size: 1.5rem;
+            }
+            h2 {
+                font-size: 1.25rem;
+                top: 0;
+            }
+        }
+
+        &__carousel-slider {
+            padding: 1rem;
+        }
+
+        &__contact {
+            flex-direction: column;
+
+            h2 {
+                max-width: 100%;
+                font-size: 2rem;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
+
 </style>
