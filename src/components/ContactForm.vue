@@ -112,6 +112,24 @@
 }
 
 
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+	.contact-form {
+        &__button {
+            width: 75%;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	.contact-form {
+		height: auto;
+
+		&__button {
+			width: 75%;
+		}
+	}
+}
+
 @media only screen and (max-width: 767px) {
 	.contact-form {
 		height: auto;

@@ -99,12 +99,26 @@ export default {
 }
 
 
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .contact {
+        &__contact-info {
+            div {
+                padding: 0 3rem 5rem;
+            }
+        }
+    }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .contact {
         padding: 0 0.5rem;
 
         &__intro-wrapper {
             padding-top: 7rem;
+        }
+
+        &__heading {
+            margin: 5rem 0;
         }
 
         &__contact-info {

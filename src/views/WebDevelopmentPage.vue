@@ -186,6 +186,35 @@ export default {
     }
 }
 
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .web-development {
+        &__intro {
+            &__heading {
+                font-size: 5rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .web-development {
+        &__intro {
+            padding-top: 5rem;
+
+            &__heading {
+                font-size: 3.5rem;
+            }
+        }
+
+        &__main-section {
+            &__img {
+                padding: 3rem;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 767px) {
     .web-development {
         padding: 0 0.5rem;

@@ -228,6 +228,35 @@ export default {
     }
 }
 
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .maintenance {
+        &__intro {
+            &__heading {
+                font-size: 5rem;
+            }
+            &__subheading {
+                font-size: 4rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .maintenance {
+        &__intro {
+            padding-top: 5rem;
+
+            &__heading {
+                font-size: 3.75rem;
+            }
+
+            &__subheading {
+                font-size: 3rem;
+            }
+        }
+    }
+}
+
 
 @media only screen and (max-width: 767px) {
     .maintenance {

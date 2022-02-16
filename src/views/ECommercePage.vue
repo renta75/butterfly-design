@@ -252,6 +252,84 @@ export default {
     }
 }
 
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .e-commerce {
+        &__intro {
+            &__heading {
+                font-size: 5rem;
+            }
+            &__subheading {
+                font-size: 4rem;
+            }
+        }
+    }
+    .inline-boxes {
+        &__box {
+            flex: 0 0 23.5%;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .e-commerce {
+        &__intro {
+            padding-top: 5rem;
+
+            &__heading {
+                font-size: 3.75rem;
+            }
+
+            &__subheading {
+                font-size: 3rem;
+            }
+        }
+
+        &__main-section {
+            &__img {
+                padding: 3rem;
+            }
+        }
+
+        &__elevated-boxes {
+            &__wrapper {
+                max-height: 24rem;
+            }
+            &__elevated-box {
+                height: 25rem;
+            }
+        }
+    }
+
+    .section-accordions {
+        height: 100vh;
+
+        &__heading {
+            font-size: 3rem;
+        }
+        &__image {
+            max-width: 25rem;
+        }
+    }
+
+    .inline-boxes {
+        flex-wrap: wrap;
+
+        &__box {
+            flex: 0 0 45%;
+            margin: 1rem;
+        }
+        &__image {
+            position: static;
+            transform: none;
+            height: 10rem;
+            margin-top: 1rem;
+        }
+        &__heading {
+            margin-top: 1rem;
+        }
+    }
+}
+
 @media only screen and (max-width: 767px) {
     .e-commerce {
         padding: 0;

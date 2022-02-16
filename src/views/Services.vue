@@ -190,6 +190,16 @@ export default {
 	}
 }
 
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .services-why-us {
+        &__box {
+            padding: 0 2rem;
+        }
+    }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .services {
         padding: 0 0.5rem;
@@ -232,6 +242,12 @@ export default {
         .services-why-us {
             &__box {
                 padding: 1rem;
+            }
+        }
+
+        .services-technologies {
+            &__tech {
+                padding: 0;
             }
         }
     }
