@@ -9,10 +9,7 @@
             <div class="laptop__content">
                 <h3 class="laptop__heading">Web development</h3>
                 <p class="laptop__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Optio ipsa iusto nam enim sed! Lorem ipsum dolor sit
-                    amet consectetur adipisicing elit. Optio ipsa iusto nam
-                    enim sed!
+                    We create websites from concept to implementation. We are actively involved in all the steps required to create your project.
                 </p>
                 <router-link to="/services/web-development" class="laptop__link">Read More...</router-link>
             </div>
@@ -26,10 +23,7 @@
             <div class="laptop__content">
                 <h3 class="laptop__heading">ECommerce</h3>
                 <p class="laptop__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Optio ipsa iusto nam enim sed! Lorem ipsum dolor sit
-                    amet consectetur adipisicing elit. Optio ipsa iusto nam
-                    enim sed!
+                    End to end e-commerce solutions to start, grow and expand your online business.
                 </p>
                 <router-link to="/services/e-commerce" class="laptop__link">Read More...</router-link>
             </div>
@@ -43,10 +37,7 @@
             <div class="laptop__content">
                 <h3 class="laptop__heading">Maintenance</h3>
                 <p class="laptop__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Optio ipsa iusto nam enim sed! Lorem ipsum dolor sit
-                    amet consectetur adipisicing elit. Optio ipsa iusto nam
-                    enim sed!
+                    WordPress website maintenance, optimization, recovery, fixes and support.
                 </p>
                 <router-link to="/services/maintenance" class="laptop__link">Read More...</router-link>
             </div>
@@ -60,10 +51,7 @@
             <div class="laptop__content">
                 <h3 class="laptop__heading">Graphic Design</h3>
                 <p class="laptop__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Optio ipsa iusto nam enim sed! Lorem ipsum dolor sit
-                    amet consectetur adipisicing elit. Optio ipsa iusto nam
-                    enim sed!
+                    Logo Design and marketing materials printed and delivered to your door.
                 </p>
                 <router-link to="/services/graphic-design" class="laptop__link">Read More...</router-link>
             </div>

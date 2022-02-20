@@ -13,40 +13,36 @@
                     <div class="section3__box-wrapper-row">
                         <div class="section3__box">
                             <h3 class="section3__box-heading">
-                                Lorem ipsum dolor
+                                QUICK PRICE QUOTES
                             </h3>
                             <p class="section3__box-text">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit.
+                                Quick understanding of the scope of your project and a quick detailed quote.
                             </p>
                         </div>
                         <div class="section3__box">
                             <h3 class="section3__box-heading">
-                                Lorem ipsum dolor
+                                Fixed pricing
                             </h3>
                             <p class="section3__box-text">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit.
+                                Fixed price for your project, no upselling or offers on not requested products.
                             </p>
                         </div>
                     </div>
                     <div class="section3__box-wrapper-row">
                         <div class="section3__box">
                             <h3 class="section3__box-heading">
-                                Lorem ipsum dolor
+                                Personal services
                             </h3>
                             <p class="section3__box-text">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit.
+                                One person is in charge of your project, no need to explain the same thing twice.
                             </p>
                         </div>
                         <div class="section3__box">
                             <h3 class="section3__box-heading">
-                                Lorem ipsum dolor
+                                Long term partner
                             </h3>
                             <p class="section3__box-text">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit.
+                                Not just a vendor, long term partner helping in any way we can.
                             </p>
                         </div>
                     </div>

@@ -11,16 +11,10 @@
                         />
                         <h3>Why butterfly design?</h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit adipisicing elit. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit
-                            adipisicing elit. Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit adipisicing elit.
-                            Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit adipisicing elit. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit
-                            adipisicing elit. Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit adipisicing elit.
+                            We believe in process of metamorphoses. Like the ugly caterpillar at first,
+                            we believe in transforming our societies into beautiful butterfly. People and
+                            organizations will come to us to transform their current stage of visual
+                            identity or products.
                         </p>
                     </div>
                     <div class="elevated-boxes__elevated-box">
@@ -31,15 +25,14 @@
                         />
                         <h3>Mission and goals</h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit adipisicing elit. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit
-                            adipisicing elit. Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit adipisicing elit.
-                            Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit adipisicing elit. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit
-                            adipisicing elit.
+                            To help adding value to your business
+                            through digital design solutions and
+                            related services by providing original
+                            solutions to all types of businesses and
+                            making the creative process as simple as
+                            possible and understandable for people f
+                            rom all areas of expertise.
+
                         </p>
                     </div>
                     <div>
@@ -50,16 +43,11 @@
                         />
                         <h3>About butterfly design</h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit adipisicing elit. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit
-                            adipisicing elit. Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit adipisicing elit.
-                            Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit adipisicing elit. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit
-                            adipisicing elit. Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit adipisicing elit.
+                            We are looking to make a big impact on people's lives, small and medium
+                            businesses, helping businesses and
+                            individuals to get their own place online, we are going
+                            beyond expectations
+                            and always overdeliver.
                         </p>
                     </div>
                 </div>

@@ -38,7 +38,6 @@ export default {
 
 .home {
     width: 100%;
-    height: calc(100vh - 69px);
 
     &__hero-section {
         display: flex;
@@ -113,6 +112,8 @@ export default {
 
 .laptop {
     margin: 8rem 1rem 0;
+    flex: 0 0 25%;
+
     &__image {
         position: relative;
         z-index: 10;
@@ -141,6 +142,7 @@ export default {
         padding: 4rem 0 0;
     }
     &__text {
+        height: 8rem;
         font-family: "MyriadProLight";
         color: $white;
         padding: 1rem 3rem 0;
@@ -267,6 +269,7 @@ export default {
 
     .elevated-boxes {
         @include elevated-boxes;
+        max-width: none;
         position: relative;
         border-radius: 5px;
         margin-top: 5rem;
@@ -341,7 +344,6 @@ export default {
 
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
     .home {
-        height: auto;
         padding: 0 1rem;
 
         &__hero-section-wrapper {
@@ -358,8 +360,13 @@ export default {
     }
 
     .laptop {
+        flex: 0 0 22%;
+
         &__content {
-            height: 33rem;
+            height: 25rem;
+        }
+        &__text {
+            height: 10rem;
         }
     }
 

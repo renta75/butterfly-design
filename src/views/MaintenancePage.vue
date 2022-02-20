@@ -47,6 +47,8 @@ export default {
             width: 40%;
             position: relative;
             top: -3rem;
+            mix-blend-mode: lighten;
+            opacity: 0.8;
         }
 
         &__text-wrapper {
@@ -73,7 +75,7 @@ export default {
         @include elevated-boxes;
 
         &__wrapper {
-            max-height: 45rem;
+            max-height: 55rem;
 
             div {
                 flex: 0 0 33.333333%;
@@ -86,7 +88,7 @@ export default {
 
         &__elevated-box {
             top: -0.5rem;
-            height: 46rem;
+            height: 56rem;
         }
 
         &__heading {
@@ -178,6 +180,7 @@ export default {
 
         &__list {
             padding: 2rem;
+            text-align: left;
         }
 
         &__list-item {
@@ -187,6 +190,7 @@ export default {
             &::before {
                 content: '';
                 display: inline-block;
+                margin-right: 0.5rem;
                 height: 1rem;
                 width: 1rem;
                 background-size: 1rem 1rem;
@@ -252,6 +256,14 @@ export default {
 
             &__subheading {
                 font-size: 3rem;
+            }
+        }
+        &__elevated-boxes {
+            &__wrapper {
+                max-height: 60rem;
+            }
+            &__elevated-box {
+                height: 61rem;
             }
         }
     }

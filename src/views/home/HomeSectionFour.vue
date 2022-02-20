@@ -8,15 +8,13 @@
 
             <div class="section4__section4-content-wrapper">
                 <p class="section4__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    We are brave and bold. We never <span style="color: #ff18f7">give-up!</span>
                 </p>
                 <p class="section4__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit
-                    adipisicing elit.
+                    We believe in top skilled us. Our works shows a <span style="color: #ff18f7">"little"</span> bit of that...
                 </p>
                 <p class="section4__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit
-                    consectetur adipisicing elit.
+                    We are "crazy" about our job. Look just this design, it is <span style="color: #ff18f7">outstanding.</span>
                 </p>
 
                 <router-link to="/contact" class="section4__button"><span>Request a quote</span></router-link>

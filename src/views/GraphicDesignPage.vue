@@ -45,6 +45,8 @@ export default {
             width: 40%;
             position: relative;
             top: -3rem;
+            mix-blend-mode: lighten;
+            opacity: 0.8;
         }
 
         &__text-wrapper {
@@ -200,6 +202,13 @@ export default {
 
         div {
             flex: 0 0 50%;
+            height: 22rem;
+        }
+
+        .quote_div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
         &__quote-wrapper {
@@ -256,6 +265,8 @@ export default {
         padding: 0 0.5rem;
 
         &__intro {
+            height: auto;
+
             .container {
                 flex-direction: column;
             }
@@ -311,6 +322,10 @@ export default {
 
             &__quote-wrapper {
                 background: linear-gradient(180deg, rgba(22, 255, 255, 0.25) 0%, rgba(19, 0, 55, 0) 100%);
+            }
+
+            div {
+                height: auto;
             }
         }
     }

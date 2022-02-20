@@ -15,15 +15,15 @@
         <div class="web-development__main-section__list-wrapper">
             <ul class="web-development__main-section__list">
                 <li class="web-development__main-section__list-item">Audit the current website</li>
-                <li class="web-development__main-section__list-item">Audit the current website</li>
-                <li class="web-development__main-section__list-item">Audit the current website</li>
-                <li class="web-development__main-section__list-item">Audit the current website</li>
+                <li class="web-development__main-section__list-item">Competition analysis</li>
+                <li class="web-development__main-section__list-item">Target market analysis</li>
+                <li class="web-development__main-section__list-item">New cunctionality requested</li>
             </ul>
             <ul class="web-development__main-section__list">
-                <li class="web-development__main-section__list-item">Audit the current website</li>
-                <li class="web-development__main-section__list-item">Audit the current website</li>
-                <li class="web-development__main-section__list-item">Audit the current website</li>
-                <li class="web-development__main-section__list-item">Audit the current website</li>
+                <li class="web-development__main-section__list-item">Graphics optimization and content</li>
+                <li class="web-development__main-section__list-item">Basic search engine optimization</li>
+                <li class="web-development__main-section__list-item">Future goals recommendations</li>
+                <li class="web-development__main-section__list-item">Marketing strategy suggestions</li>
             </ul>
         </div>
 
