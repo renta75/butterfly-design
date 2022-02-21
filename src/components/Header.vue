@@ -14,7 +14,15 @@
                     <router-link to="/about">About us</router-link>
                 </li>
                 <li class="header__item">
-                    <router-link to="/services">Services</router-link>
+                    <router-link to="/services" class="header__link" @mouseenter.native="show = true" @mouseleave.native="show = false">
+                        Services
+                        <ul class="header__submenu" v-if="show" @click.stop="show = false">
+                            <router-link to="/services/web-development"><li class="header__subitem">Development</li></router-link>
+                            <router-link to="/services/e-commerce"><li class="header__subitem">E-Commerce</li></router-link>
+                            <router-link to="/services/maintenance"><li class="header__subitem">Maintenance</li></router-link>
+                            <router-link to="/services/graphic-design"><li class="header__subitem">Graphic Design</li></router-link>
+                        </ul>
+                    </router-link>
                 </li>
                 <li class="header__item">
                     <router-link to="/contact">Contact</router-link>
@@ -29,15 +37,36 @@
                 <span></span>
 
                 <ul class="header__mobile-menu__list">
-                    <router-link to="/"><li>Home</li></router-link>
-                    <router-link to="/about"><li>About us</li></router-link>
-                    <router-link to="/services"><li>Services</li></router-link>
-                    <router-link to="/contact"><li>Contact</li></router-link>
+                    <router-link to="/"><li class="header__list-item">Home</li></router-link>
+                    <router-link to="/about"><li class="header__list-item">About us</li></router-link>
+                    <router-link to="/services">
+                        <li class="header__list-item">
+                            Services
+                        </li>
+                    </router-link>
+                    <ul class="header__submenu-mob" v-if="show" @click.stop="show = false">
+                        <router-link to="/services/web-development"><li class="header__subitem-mob">Development</li></router-link>
+                        <router-link to="/services/e-commerce"><li class="header__subitem-mob">E-Commerce</li></router-link>
+                        <router-link to="/services/maintenance"><li class="header__subitem-mob">Maintenance</li></router-link>
+                        <router-link to="/services/graphic-design"><li class="header__subitem-mob">Graphic Design</li></router-link>
+                    </ul>
+                    <router-link to="/contact"><li class="header__list-item">Contact</li></router-link>
                 </ul>
             </div>
         </div>
     </nav>
 </template>
+
+<script>
+export default {
+    name: 'header-component',
+    data() {
+        return {
+            show: true
+        }
+    }
+}
+</script>
 
 <style lang="scss">
 @import "@/assets/scss/_variables.scss";
@@ -86,6 +115,13 @@
     }
     &__item:nth-last-child(1) {
         padding-right: 0px;
+    }
+    &__submenu {
+        position: absolute;
+        background: $dark-blue;
+        width: 100%;
+        max-width: 15rem;
+        padding: 1rem 1.65rem 0;
     }
 }
 
@@ -163,25 +199,43 @@
     .header__mobile-menu__list {
         position: absolute;
         width: 22rem;
-		height: 60vh;
+		height: 50vh;
+        top: 3rem;
         right: -51px;
-        padding: 1.5rem 3.5rem 1.5rem 1.5rem;
-		text-align: right;
+        padding: 0 0 1.5rem 0;
+		text-align: left;
         background: $dark-blue;
         list-style-type: none;
         -webkit-font-smoothing: antialiased;
         transform-origin: 0% 0%;
         transform: translate(100%, 0);
         transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+        box-shadow: 0 4px 2px -2px #000;
     }
 
     .header__mobile-menu__list li {
+        font-size: 1.5rem;
+        padding-left: 1.25rem;
+    }
+
+    .header__list-item {
         padding: 10px 0;
-        font-size: 22px;
     }
 
     .header__mobile-menu input:checked ~ ul {
         transform: none;
+    }
+
+    .header__submenu-mob {
+        background: #160040;
+        width: 100%;
+        padding-left: 1rem;
+        text-align: left;
+    }
+
+    .header__subitem-mob {
+        font-size: 1.15rem !important;
+        padding: 1rem 0;
     }
 }
 </style>

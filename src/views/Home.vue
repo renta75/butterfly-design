@@ -38,6 +38,7 @@ export default {
 
 .home {
     width: 100%;
+    height: 100vh;
 
     &__hero-section {
         display: flex;
@@ -386,6 +387,10 @@ export default {
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .home {
         padding: 10rem 1rem 0;
+
+        &__hero-section-butterfly-image {
+            width: 40rem;
+        }
 
         &__hero-section-wrapper {
             padding: 0;

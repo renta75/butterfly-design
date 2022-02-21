@@ -37,9 +37,7 @@ export default {
 .web-development {
     &__intro {
         @include service-page-intro;
-        background-color: $dark-blue;
         height: 100vh;
-        box-shadow: 0 40px 40px $dark-blue;
         padding-top: 8rem;
 
         .container {
@@ -47,7 +45,7 @@ export default {
         }
 
         video {
-            width: 40%;
+            width: 50%;
             position: relative;
             top: -3rem;
             mix-blend-mode: lighten;
@@ -56,7 +54,7 @@ export default {
 
         &__text-wrapper {
             margin: 5rem 0 0 1rem;
-            width: 60%;
+            width: 50%;
         }
 
         &__text {
