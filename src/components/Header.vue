@@ -30,7 +30,7 @@
             </ul>
 
             <div class="header__mobile-menu">
-                <input type="checkbox" />
+                <input type="checkbox" v-model="checked" />
 
                 <span></span>
                 <span></span>
@@ -44,7 +44,7 @@
                             Services
                         </li>
                     </router-link>
-                    <ul class="header__submenu-mob" v-if="show" @click.stop="show = false">
+                    <ul class="header__submenu-mob">
                         <router-link to="/services/web-development"><li class="header__subitem-mob">Development</li></router-link>
                         <router-link to="/services/e-commerce"><li class="header__subitem-mob">E-Commerce</li></router-link>
                         <router-link to="/services/maintenance"><li class="header__subitem-mob">Maintenance</li></router-link>
@@ -62,7 +62,13 @@ export default {
     name: 'header-component',
     data() {
         return {
-            show: true
+            show: false,
+            checked: false
+        }
+    },
+    watch:{
+        $route (){
+            this.checked = false;
         }
     }
 }

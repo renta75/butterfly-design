@@ -554,7 +554,7 @@ export default {
     .section4 {
         height: auto;
         background-size: contain;
-        background-position: center;
+        background-position: 0 31rem;
         padding: 0 0.5rem;
 
         &__section4-wrapper {
@@ -574,7 +574,7 @@ export default {
             padding: 0;
         }
         &__button {
-            margin: 0 auto;
+            margin: 11rem auto 0;
         }
     }
 
