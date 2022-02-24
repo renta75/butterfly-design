@@ -191,6 +191,13 @@ export default {
 .VueCarousel-dot {
     padding: 0 !important;
     margin: 0.25rem;
+    background-color: transparent !important;
+    border: 1px solid #fff !important;
+}
+
+.VueCarousel-dot--active {
+    background-color: #fff !important;
+    border: none !important;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1440px) {
@@ -324,6 +331,14 @@ export default {
 
         &__carousel-slider {
             padding: 1rem;
+
+            ul li {
+                padding: 1rem 0;
+
+                &:nth-child(even) {
+                    padding: 0;
+                }
+            }
         }
 
         &__contact {

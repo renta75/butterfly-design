@@ -78,7 +78,7 @@ export default {
         display: flex;
         &__button {
             @include button;
-            max-width: 13rem;
+            max-width: 15rem;
             margin-top: 6rem;
             position: relative;
 
@@ -462,6 +462,12 @@ export default {
                 height: 32rem;
             }
         }
+
+        &__contact {
+            &__buttons {
+                justify-content: center;
+            }
+        }
     }
 
     .contact-section {
@@ -548,13 +554,16 @@ export default {
         }
         &__box:nth-child(even), &__box:nth-child(odd) {
             text-align: left;
+            margin: 0;
         }
     }
 
     .section4 {
         height: auto;
+        background: url('~@/assets/hand-butterfly.png');
+        background-repeat: no-repeat;
         background-size: contain;
-        background-position: 0 31rem;
+        background-position: right 0 bottom 5rem;
         padding: 0 0.5rem;
 
         &__section4-wrapper {
@@ -574,7 +583,7 @@ export default {
             padding: 0;
         }
         &__button {
-            margin: 11rem auto 0;
+            margin: 15rem auto 0;
         }
     }
 
@@ -610,6 +619,7 @@ export default {
             }
             &__buttons {
                 flex-wrap: wrap;
+                justify-content: center;
 
                 a {
                     margin: 1rem 0.75rem;

@@ -184,8 +184,8 @@ export default {
 		margin-bottom: 5rem;
 
 		img {
-			width: 100%;
-			max-width: 6rem;
+			width: auto;
+			max-height: 8rem;
 		}
 	}
 }

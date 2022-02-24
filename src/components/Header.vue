@@ -11,11 +11,8 @@
                     <router-link to="/">Home</router-link>
                 </li>
                 <li class="header__item">
-                    <router-link to="/about">About us</router-link>
-                </li>
-                <li class="header__item">
                     <router-link to="/services" class="header__link" @mouseenter.native="show = true" @mouseleave.native="show = false">
-                        Services
+                        Services <img src="@/assets/Icon-DOWN.svg" alt="" :class="['header__arrow', show ? 'rotate' : '']">
                         <ul class="header__submenu" v-if="show" @click.stop="show = false">
                             <router-link to="/services/web-development"><li class="header__subitem">Development</li></router-link>
                             <router-link to="/services/e-commerce"><li class="header__subitem">E-Commerce</li></router-link>
@@ -23,6 +20,9 @@
                             <router-link to="/services/graphic-design"><li class="header__subitem">Graphic Design</li></router-link>
                         </ul>
                     </router-link>
+                </li>
+                <li class="header__item">
+                    <router-link to="/about">About us</router-link>
                 </li>
                 <li class="header__item">
                     <router-link to="/contact">Contact</router-link>
@@ -38,7 +38,6 @@
 
                 <ul class="header__mobile-menu__list">
                     <router-link to="/"><li class="header__list-item">Home</li></router-link>
-                    <router-link to="/about"><li class="header__list-item">About us</li></router-link>
                     <router-link to="/services">
                         <li class="header__list-item">
                             Services
@@ -50,6 +49,7 @@
                         <router-link to="/services/maintenance"><li class="header__subitem-mob">Maintenance</li></router-link>
                         <router-link to="/services/graphic-design"><li class="header__subitem-mob">Graphic Design</li></router-link>
                     </ul>
+                    <router-link to="/about"><li class="header__list-item">About us</li></router-link>
                     <router-link to="/contact"><li class="header__list-item">Contact</li></router-link>
                 </ul>
             </div>
@@ -79,6 +79,11 @@ export default {
 
 .header__mobile-menu {
     display: none;
+}
+
+.rotate {
+    transform: rotate(-180deg);
+    transition: 0.3s ease;
 }
 
 .header {
@@ -121,6 +126,14 @@ export default {
     }
     &__item:nth-last-child(1) {
         padding-right: 0px;
+    }
+    &__arrow {
+        width: 0.8rem;
+        position: relative;
+        top: -0.15rem;
+        transition: 0.3s ease;
+        -webkit-filter: brightness(0) invert(1);
+        filter: brightness(0) invert(1);
     }
     &__submenu {
         position: absolute;

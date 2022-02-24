@@ -215,6 +215,8 @@ export default {
         }
 
         &__other-service {
+            text-decoration: none;
+
             img {
                 max-width: 5rem;
                 height: 5.5rem;

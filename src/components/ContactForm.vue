@@ -152,6 +152,10 @@
 				width: 100%;
 			}
 		}
+
+		&__button {
+			margin: 2rem auto;
+		}
 	}
 }
 </style>

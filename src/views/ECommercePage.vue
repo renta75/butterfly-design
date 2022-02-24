@@ -238,6 +238,7 @@ export default {
 
         &__other-service {
             text-align: center;
+            text-decoration: none;
 
             img {
                 max-width: 5rem;
