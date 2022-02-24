@@ -629,4 +629,49 @@ export default {
         }
     }
 }
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .home {
+        &__hero-section-butterfly-image {
+            display: block;
+            width: 560px;
+            right: -360px;
+            top: 13rem;
+        }
+        &__hero-section-h1 {
+            padding-left: 1.5rem;
+            font-size: 4.5rem;
+        }
+        &__hero-section-h2 {
+            position: absolute;
+            top: 10rem;
+            padding-left: 1.5rem;
+            font-size: 3.5rem;
+        }
+        &__hero-section-subheading {
+            max-width: 50%;
+            padding-left: 25px;
+            padding-top: 40px;
+            font-size: 3rem;
+        }
+        &__hero-section-buttons {
+            margin-top: 1rem;
+            padding-left: 1.1rem;
+            justify-content: flex-start;
+            width: 75%;
+
+            &__button {
+                margin: 1rem;
+                max-width: 12rem;
+                &:nth-child(1) {
+                    margin: 1rem;
+                }
+            }
+        }
+    }
+    .section2 {
+        margin-top: 8rem;
+    }
+}
+
 </style>
