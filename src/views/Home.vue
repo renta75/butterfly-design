@@ -481,10 +481,6 @@ export default {
         padding: 0 0.5rem;
         height: auto;
 
-        &__hero-section-butterfly-image {
-            display: none;
-        }
-
         &__hero-section-wrapper {
             padding: 8rem 0 0;
             margin: 0 auto;
@@ -665,6 +661,53 @@ export default {
                 max-width: 12rem;
                 &:nth-child(1) {
                     margin: 1rem;
+                }
+            }
+        }
+    }
+    .section2 {
+        margin-top: 8rem;
+    }
+}
+
+@media only screen and (max-width: 424px) {
+    .home {
+        &__hero-section-butterfly-image {
+            display: block;
+            width: 520px;
+            right: -325px;
+            top: 9rem;
+            z-index: -1;
+        }
+        &__hero-section-h1 {
+            padding-left: 1rem;
+            font-size: 3.5rem;
+        }
+        &__hero-section-h2 {
+            position: absolute;
+            top: 9.5rem;
+            padding-left: 1rem;
+            font-size: 3.5rem;
+        }
+        &__hero-section-subheading {
+            max-width: 40%;
+            padding-left: 1rem;
+            padding-top: 3.75rem;
+            font-size: 2.25rem;
+        }
+        &__hero-section-buttons {
+            margin-top: 3.75rem;
+            padding-left: 1rem;
+            justify-content: flex-start;
+            width: 75%;
+
+            &__button {
+                margin: 1rem 0 0;
+                max-width: 10rem;
+                font-size: 1rem;
+
+                &:nth-child(1) {
+                    margin: 0;
                 }
             }
         }
