@@ -16,7 +16,7 @@
 
             <div class="home__hero-section-butterfly">
                 <img
-                    src="@/assets/Main-Butterfly.svg"
+                    src="@/assets/Home-HeroButterfly.png"
                     alt=""
                     class="home__hero-section-butterfly-image"
                 />

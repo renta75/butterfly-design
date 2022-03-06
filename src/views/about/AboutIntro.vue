@@ -18,7 +18,7 @@
                 </p>
             </div>
 
-            <img src="@/assets/about-us/PAGE-AboutUs-Butterfly.svg" alt="" class="about__large-butterfly__img">
+            <img src="@/assets/about-us/PAGE-AboutUs-Butterfly.png" alt="" class="about__large-butterfly__img">
         </div>
     </div>
 </template>

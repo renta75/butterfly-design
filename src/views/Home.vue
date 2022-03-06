@@ -234,7 +234,7 @@ export default {
 
 .section4 {
     height: 85vh;
-    background: url("~@/assets/Section3-Butterfly-Arm.svg");
+    background: url('~@/assets/Butterfly-Hand.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right -15rem top;
@@ -556,7 +556,7 @@ export default {
 
     .section4 {
         height: auto;
-        background: url('~@/assets/hand-butterfly.png');
+        background: url('~@/assets/Butterfly-Hand.png');
         background-repeat: no-repeat;
         background-size: contain;
         background-position: right 0 bottom 5rem;

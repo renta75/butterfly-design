@@ -5,9 +5,9 @@
 		<div class="contact-form__wrapper">
 			<div class="contact-form__frm-wrapper">
 				<form action="#">
-					<input type="text" placeholder="your appreciated name">
-					<input type="text" placeholder="your@awesome.email">
-					<textarea name="" id="" cols="30" rows="10" placeholder="your finest message"></textarea>
+					<input name="name" type="text" placeholder="Your Appreciated Name">
+					<input name="email" type="text" placeholder="your@awesome.email">
+					<textarea name="message" id="" cols="30" rows="10" placeholder="Your Finest Message"></textarea>
 				</form>
 
 				<router-link to="/contact" class="contact-form__button"><span>Contact us</span></router-link>

@@ -3,9 +3,9 @@
 		<div class="container footer__wrapper">
             <div class="footer__logo-wrapper">
                 <img alt="Logo" src="@/assets/footer-logo.svg" class="footer__logo" width="">
-                <span class="footer__text">contact@butterfly.design</span>
-                <span class="footer__text">some street 123 NY</span>
-                <span class="footer__text">+123 45 666 666</span>
+                <span class="footer__text">contact@butterflydesign.hr</span>
+                <span class="footer__text">Senjska 125, HR-47303 Josipdol, Croatia</span>
+                <span class="footer__text">+385914777020</span>
             </div>
 
             <div class="footer__services-wrapper">
@@ -42,7 +42,7 @@
             <img src="@/assets/contact/Icon-Youtube.svg" alt="">
         </div>
 
-        <p class="footer__copy">&copy; 2022 Butterfly Design by ELIXStudio</p>
+        <p class="footer__copy">&copy; 2022 Butterfly Design LLC</p>
 	</nav>
 </template>
 

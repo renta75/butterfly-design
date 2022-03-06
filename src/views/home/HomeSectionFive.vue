@@ -67,8 +67,8 @@
                 </div>
 
                 <div class="section5__contact__buttons">
-                    <router-link to="/contact" class="section5__button-email"><img src="@/assets/Button-Email.svg" alt="" class="section5__contact__icon"><span>contact@butterfly.design</span></router-link>
-                    <router-link to="/contact" class="section5__button-phone"><img src="@/assets/Button-Phone.svg" alt="" class="section5__contact__icon phone-icon"><span>+353 879827181</span></router-link>
+                    <router-link to="/contact" class="section5__button-email"><img src="@/assets/Button-Email.svg" alt="" class="section5__contact__icon"><span>contact@butterflydesign.hr</span></router-link>
+                    <router-link to="/contact" class="section5__button-phone"><img src="@/assets/Button-Phone.svg" alt="" class="section5__contact__icon phone-icon"><span>+385 914777020</span></router-link>
                 </div>
             </div>
         </div>
