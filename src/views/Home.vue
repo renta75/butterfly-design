@@ -341,7 +341,11 @@ export default {
     }
 }
 
-
+@media only screen and (min-width: 1440px) and (max-width: 1919px) {
+    .laptop {
+        flex: 0 0 22%;
+    }
+}
 
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
     .home {

@@ -1,6 +1,6 @@
 <template>
     <div class="contact-form">
-		<h2 class="contact-form__heading">How can we help?</h2>
+		<h2 class="contact-form__heading" id="contact_form_anchor">How can we help?</h2>
 
 		<div class="contact-form__wrapper">
 			<div class="contact-form__frm-wrapper">
@@ -10,7 +10,7 @@
 					<textarea name="" id="" cols="30" rows="10" placeholder="your finest message"></textarea>
 				</form>
 
-				<router-link to="/contact" class="contact-form__button"><span>Contact us</span></router-link>
+				<router-link :to="{ path: '/contact', hash: '#contact_form_anchor' }" class="contact-form__button"><span>Contact us</span></router-link>
 			</div>
 			<div class="contact-form__info">
 				<h3 class="contact-form__info__heading">You’ve got questions, we’ve got answers</h3>
@@ -74,7 +74,7 @@
 		}
 
 		::placeholder {
-			color: #4D2F96;
+			color: #fff;
 		}
 	}
 

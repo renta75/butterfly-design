@@ -17,7 +17,7 @@
                     We are "crazy" about our job. Look just this design, it is <span style="color: #ff18f7">outstanding.</span>
                 </p>
 
-                <router-link to="/contact" class="section4__button"><span>Request a quote</span></router-link>
+                <router-link :to="{ path: '/contact', hash: '#contact_form_anchor' }" class="section4__button"><span>Request a quote</span></router-link>
             </div>
         </div>
     </div>

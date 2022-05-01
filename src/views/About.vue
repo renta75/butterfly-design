@@ -9,7 +9,7 @@
         <div class="about__contact">
             <h2>THE CONTACT BUTTON IS RIGHT HERE</h2>
 
-            <router-link to="/contact" class="about__button"><span>Contact us</span></router-link>
+            <router-link :to="{ path: '/contact', hash: '#contact_form_anchor' }" class="about__button"><span>Contact us</span></router-link>
         </div>
     </div>
 </template>

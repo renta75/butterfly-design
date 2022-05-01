@@ -10,7 +10,7 @@
 
                 <div class="home__hero-section-buttons">
                     <router-link to="/services" class="home__hero-section-buttons__button"><img src="@/assets/Button-Services.svg" alt="" class="home__hero-section-buttons__button-img gear-icon"><span>Services</span></router-link>
-                    <router-link to="/contact" class="home__hero-section-buttons__button"><img src="@/assets/Button-Email.svg" alt="" class="home__hero-section-buttons__button-img"><span>Contact us</span></router-link>
+                    <router-link :to="{ path: '/contact', hash: '#contact_form_anchor' }" class="home__hero-section-buttons__button"><img src="@/assets/Button-Email.svg" alt="" class="home__hero-section-buttons__button-img"><span>Contact us</span></router-link>
                 </div>
             </div>
 

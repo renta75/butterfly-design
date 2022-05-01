@@ -10,27 +10,27 @@
 
         <div class="web-development__main-section__images-wrapper">
             <div class="web-development__main-section__img">
-                <img src="@/assets/web-development/PAGE-WebDevelopment-Business.svg" alt="">
+                <img src="@/assets/web-development/Services-WebDev-Business.png" alt="">
                 <h3 class="web-development__main-section__h3">BUSINESS WEBSITES</h3>
             </div>
             <div class="web-development__main-section__img">
-                <img src="@/assets/web-development/PAGE-WebDevelopment-Ecommerce.svg" alt="">
+                <img src="@/assets/web-development/Services-WebDev-Ecommerce.png" alt="">
                 <h3 class="web-development__main-section__h3">E-COMMERCE WEBSITES</h3>
             </div>
             <div class="web-development__main-section__img">
-                <img src="@/assets/web-development/PAGE-WebDevelopment-NonProfit.svg" alt="">
+                <img src="@/assets/web-development/Services-WebDev-Non-profit.png" alt="">
                 <h3 class="web-development__main-section__h3">NON PROFIT WEBSITES</h3>
             </div>
             <div class="web-development__main-section__img">
-                <img src="@/assets/web-development/PAGE-WebDevelopment-MembershipWebsites.svg" alt="">
+                <img src="@/assets/web-development/Services-WebDev-Membership.png" alt="">
                 <h3 class="web-development__main-section__h3">MEMBERSHIP WEBSITES</h3>
             </div>
             <div class="web-development__main-section__img">
-                <img src="@/assets/web-development/PAGE-WebDevelopment-EventsWebsites.svg" alt="">
+                <img src="@/assets/web-development/Services-WebDev-Events.png" alt="">
                 <h3 class="web-development__main-section__h3">EVENTS WEBSITES</h3>
             </div>
             <div class="web-development__main-section__img">
-                <img src="@/assets/web-development/PAGE-WebDevelopment-Blog-Websites.svg" alt="">
+                <img src="@/assets/web-development/Services-WebDev-Blog.png" alt="">
                 <h3 class="web-development__main-section__h3">BLOG WEBSITES</h3>
             </div>
         </div>

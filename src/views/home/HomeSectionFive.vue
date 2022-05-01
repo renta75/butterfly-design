@@ -6,7 +6,7 @@
                     <div>
                         <img
                             class="elevated-boxes__top-img first-img"
-                            src="@/assets/whybutterflydesign.svg"
+                            src="@/assets/Home-Leptir.png"
                             alt=""
                         />
                         <h3>Why butterfly design?</h3>
@@ -20,7 +20,7 @@
                     <div class="elevated-boxes__elevated-box">
                         <img
                             class="elevated-boxes__top-img"
-                            src="@/assets/missionandgoals.svg"
+                            src="@/assets/Home-Target.png"
                             alt=""
                         />
                         <h3>Mission and goals</h3>
@@ -38,7 +38,7 @@
                     <div>
                         <img
                             class="elevated-boxes__top-img"
-                            src="@/assets/aboutbutterflydesign.svg"
+                            src="@/assets/Home-Puzzle.png"
                             alt=""
                         />
                         <h3>About butterfly design</h3>
@@ -67,8 +67,8 @@
                 </div>
 
                 <div class="section5__contact__buttons">
-                    <router-link to="/contact" class="section5__button-email"><img src="@/assets/Button-Email.svg" alt="" class="section5__contact__icon"><span>contact@butterfly.design</span></router-link>
-                    <router-link to="/contact" class="section5__button-phone"><img src="@/assets/Button-Phone.svg" alt="" class="section5__contact__icon phone-icon"><span>+353 879827181</span></router-link>
+                    <router-link :to="{ path: '/contact', hash: '#contact_form_anchor' }" class="section5__button-email"><img src="@/assets/Button-Email.svg" alt="" class="section5__contact__icon"><span>contact@butterfly.design</span></router-link>
+                    <router-link :to="{ path: '/contact', hash: '#contact_form_anchor' }" class="section5__button-phone"><img src="@/assets/Button-Phone.svg" alt="" class="section5__contact__icon phone-icon"><span>+353 879827181</span></router-link>
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@
     <div class="graphic-design__main-section">
         <graphic-design-images></graphic-design-images>
 
-        <router-link to="/contact" class="graphic-design__button"><span>Contact us</span></router-link>
+        <router-link :to="{ path: '/contact', hash: '#contact_form_anchor' }" class="graphic-design__button"><span>Contact us</span></router-link>
 
         <graphic-design-quote></graphic-design-quote>
 
