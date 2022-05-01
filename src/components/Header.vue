@@ -25,7 +25,7 @@
                     <router-link to="/about">About us</router-link>
                 </li>
                 <li class="header__item">
-                    <router-link to="/contact">Contact</router-link>
+                    <router-link :to="{ path: '/contact' }">Contact</router-link>
                 </li>
             </ul>
 
@@ -50,7 +50,7 @@
                         <router-link to="/services/graphic-design"><li class="header__subitem-mob">Graphic Design</li></router-link>
                     </ul>
                     <router-link to="/about"><li class="header__list-item">About us</li></router-link>
-                    <router-link to="/contact"><li class="header__list-item">Contact</li></router-link>
+                    <router-link :to="{ path: '/contact' }"><li class="header__list-item">Contact</li></router-link>
                 </ul>
             </div>
         </div>

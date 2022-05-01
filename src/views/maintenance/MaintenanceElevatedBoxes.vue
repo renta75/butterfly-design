@@ -21,7 +21,7 @@
                     <li class="maintenance__main-section__list-item">SSL Certificate</li>
                     <li class="maintenance__main-section__list-item">No contract - Cancel anytime</li>
                 </ul>
-                <router-link to="/contact" class="maintenance__elevated-boxes__button"><span>Get Started</span></router-link>
+                <router-link :to="{ path: '/contact', hash: '#contact_form_anchor' }" class="maintenance__elevated-boxes__button"><span>Get Started</span></router-link>
             </div>
             <div class="maintenance__elevated-boxes__elevated-box">
                 <h3 class="maintenance__elevated-boxes__heading">BASIC PLAN</h3>
@@ -43,7 +43,7 @@
                     <li class="maintenance__main-section__list-item">SSL Certificate</li>
                     <li class="maintenance__main-section__list-item">No contract - Cancel anytime</li>
                 </ul>
-                <router-link to="/contact" class="maintenance__elevated-boxes__button"><span>Get Started</span></router-link>
+                <router-link :to="{ path: '/contact', hash: '#contact_form_anchor' }" class="maintenance__elevated-boxes__button"><span>Get Started</span></router-link>
             </div>
             <div>
                 <h3 class="maintenance__elevated-boxes__heading">PRO PLAN</h3>
@@ -65,7 +65,7 @@
                     <li class="maintenance__main-section__list-item">SSL Certificate</li>
                     <li class="maintenance__main-section__list-item">No contract - Cancel anytime</li>
                 </ul>
-                <router-link to="/contact" class="maintenance__elevated-boxes__button"><span>Get Started</span></router-link>
+                <router-link :to="{ path: '/contact', hash: '#contact_form_anchor' }" class="maintenance__elevated-boxes__button"><span>Get Started</span></router-link>
             </div>
         </div>
     </div>

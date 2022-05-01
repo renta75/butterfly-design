@@ -27,7 +27,7 @@
             </ul>
         </div>
 
-        <router-link to="/contact" class="web-development__main-section__button"><span>Contact us</span></router-link>
+        <router-link :to="{ path: '/contact', hash: '#contact_form_anchor' }" class="web-development__main-section__button"><span>Contact us</span></router-link>
     </div>
 </template>
 

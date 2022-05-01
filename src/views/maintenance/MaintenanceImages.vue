@@ -1,7 +1,7 @@
 <template>
     <div class="maintenance__main-section__images-wrapper">
         <div class="maintenance__main-section__img">
-            <img src="@/assets/maintenance/PAGE-Maintenance-ContentUpdates.svg" alt="">
+            <img src="@/assets/maintenance/Services-Maintenance-Contentupdates.png" alt="">
             <h3 class="maintenance__main-section__h3">CONTENT UPDATES</h3>
             <p class="maintenance__main-section__text">Have your website content
                 updated as often as you
@@ -10,7 +10,7 @@
             </p>
         </div>
         <div class="maintenance__main-section__img">
-            <img src="@/assets/maintenance/PAGE-Maintenance-CoreUpdates.svg" alt="">
+            <img src="@/assets/maintenance/Services-Maintenance-CoreUpdates.png" alt="">
             <h3 class="maintenance__main-section__h3">CORE UPDATES</h3>
             <p class="maintenance__main-section__text">Safely update your Wordpress
                 website theme & plugins
@@ -19,7 +19,7 @@
             </p>
         </div>
         <div class="maintenance__main-section__img">
-            <img src="@/assets/maintenance/PAGE-Maintenance-Backups.svg" alt="">
+            <img src="@/assets/maintenance/Services-Maintenance-Backups.png" alt="">
             <h3 class="maintenance__main-section__h3">BACKUPS</h3>
             <p class="maintenance__main-section__text">Weekly od Daily backups
                 depending on the size of
@@ -28,7 +28,7 @@
             </p>
         </div>
         <div class="maintenance__main-section__img">
-            <img src="@/assets/maintenance/PAGE-Maintenance-SpeedOptimization.svg" alt="">
+            <img src="@/assets/maintenance/Services-Maintenance-Speedopt.png" alt="">
             <h3 class="maintenance__main-section__h3">SPEED OPTIMIZATION</h3>
             <p class="maintenance__main-section__text">Fast websites keep your visitors
                 onsite reducing bounce rates
@@ -37,7 +37,7 @@
             </p>
         </div>
         <div class="maintenance__main-section__img">
-            <img src="@/assets/maintenance/PAGE-Maintenance-Security.svg" alt="">
+            <img src="@/assets/maintenance/Services-Maintenance-Security.png" alt="">
             <h3 class="maintenance__main-section__h3">SECURITY</h3>
             <p class="maintenance__main-section__text">We will optimize your website
                 security to protect it
@@ -46,7 +46,7 @@
             </p>
         </div>
         <div class="maintenance__main-section__img">
-            <img src="@/assets/maintenance/PAGE-Maintenance-ThemesAndPlugins.svg" alt="">
+            <img src="@/assets/maintenance/Services-Maintenance-Themesnplugins.png" alt="">
             <h3 class="maintenance__main-section__h3">THEMES & PLUGINS</h3>
             <p class="maintenance__main-section__text">Not sure what theme would
                 suit your project or what
@@ -55,7 +55,7 @@
             </p>
         </div>
         <div class="maintenance__main-section__img">
-            <img src="@/assets/maintenance/PAGE-Maintenance-HostingAndDomain.svg" alt="">
+            <img src="@/assets/maintenance/Services-Maintenance-Hostinganddomain.png" alt="">
             <h3 class="maintenance__main-section__h3">HOSTING & DOMAIN</h3>
             <p class="maintenance__main-section__text">New website? Domain
                 registration and hosting
@@ -63,7 +63,7 @@
             </p>
         </div>
         <div class="maintenance__main-section__img">
-            <img src="@/assets/maintenance/PAGE-Maintenance-CustomTweaks.svg" alt="">
+            <img src="@/assets/maintenance/Services-Maintenance-CustomTweaks.png" alt="">
             <h3 class="maintenance__main-section__h3">CUSTOM TWEAKS</h3>
             <p class="maintenance__main-section__text">Unlimited small changes to
                 keep your site fresh and up
@@ -71,7 +71,7 @@
             </p>
         </div>
         <div class="maintenance__main-section__img">
-            <img src="@/assets/maintenance/PAGE-Maintenance-ChatSupport.svg" alt="">
+            <img src="@/assets/maintenance/Services-Maintenance-ChatSupport.png" alt="">
             <h3 class="maintenance__main-section__h3">CHAT SUPPORT</h3>
             <p class="maintenance__main-section__text">Daily chat support for any other
                 issues that might appear that

@@ -1,7 +1,9 @@
 <template>
     <div class="website-wrapper">
         <header-global />
-        <router-view />
+        <transition name="fade" mode="out-in">
+            <router-view />
+        </transition>
         <footer-global />
     </div>
 </template>
@@ -31,4 +33,17 @@ export default {
 
 <style lang="scss">
 @import "@/assets/scss/_main.scss";
+
+.fade-enter-active, .fade-leave-active {
+  transition-property: opacity;
+  transition-duration: .3s;
+}
+
+.fade-enter-active {
+  transition-delay: .3s;
+}
+
+.fade-enter, .fade-leave-active {
+  opacity: 0
+}
 </style>

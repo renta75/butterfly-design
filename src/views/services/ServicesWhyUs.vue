@@ -31,8 +31,8 @@
         </div>
 
         <div class="services-why-us__buttons">
-            <router-link to="/contact" class="services-why-us__button"><span>Services</span></router-link>
-            <router-link to="/contact" class="services-why-us__button"><span>Contact us</span></router-link>
+            <router-link :to="{ path: '/contact', hash: '#contact_form_anchor' }" class="services-why-us__button"><span>Services</span></router-link>
+            <router-link :to="{ path: '/contact', hash: '#contact_form_anchor' }" class="services-why-us__button"><span>Contact us</span></router-link>
         </div>
 
 		<div class="container services-technologies">

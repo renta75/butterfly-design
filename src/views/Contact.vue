@@ -8,19 +8,19 @@
 
     <div class="container contact__contact-info">
         <div class="contact__contact-info__letsmeet">
-            <img src="@/assets/contact/LetsMeet.svg" alt="" class="contact__contact-info__image image-size">
+            <img src="@/assets/contact/LetsMeet.png" alt="" class="contact__contact-info__image">
             <h3 class="contact__contact-info__heading">LET'S MEET</h3>
             <p class="contact__contact-info__text">Senjska 125, HR-47303 Josipdol, Croatia</p>
             <p class="contact__contact-info__pink">+385914777020</p>
         </div>
         <div class="contact__contact-info__hireus">
-            <img src="@/assets/contact/HireUs.svg" alt="" class="contact__contact-info__image image-size">
+            <img src="@/assets/contact/HireUs.png" alt="" class="contact__contact-info__image">
             <h3 class="contact__contact-info__heading">HIRE US!</h3>
             <p class="contact__contact-info__text">Send us your brief, we’re ready</p>
             <p class="contact__contact-info__pink">info@butterflydesign.hr</p>
         </div>
         <div class="contact__contact-info__creative">
-            <img src="@/assets/contact/Creative.svg" alt="" class="contact__contact-info__image">
+            <img src="@/assets/contact/Creative.png" alt="" class="contact__contact-info__image image-position">
             <h3 class="contact__contact-info__heading">CREATIVE?</h3>
             <p class="contact__contact-info__text">Pro at your area? We’re all ears</p>
             <p class="contact__contact-info__pink">Let’s be partners</p>
@@ -70,13 +70,8 @@ export default {
             padding: 0 8rem 7rem;
         }
 
-        &__image {
-            width: 100%;
-            max-width: 10rem;
-        }
-
-        .image-size {
-            height: 5.65rem;
+        .image-position {
+            margin: 1rem 0 0.25rem;
         }
 
         &__heading {

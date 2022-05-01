@@ -5,7 +5,7 @@
 
     <web-dev-boxes></web-dev-boxes>
 
-    <router-link to="/contact" class="web-development__button"><span>Contact us</span></router-link>
+    <router-link :to="{ path: '/contact', hash: '#contact_form_anchor' }" class="web-development__button"><span>Contact us</span></router-link>
 
     <div class="web-development__main-section">
 

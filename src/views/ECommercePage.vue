@@ -5,7 +5,7 @@
 
     <ecommerce-elevated-boxes></ecommerce-elevated-boxes>
 
-    <router-link to="/contact" class="e-commerce__button"><span>Contact us</span></router-link>
+    <router-link :to="{ path: '/contact', hash: '#contact_form_anchor' }" class="e-commerce__button"><span>Contact us</span></router-link>
 
     <ecommerce-accordions></ecommerce-accordions>
 
@@ -13,7 +13,7 @@
 
     <ecommerce-store-features></ecommerce-store-features>
 
-    <router-link to="/contact" class="ecommerce__bottom-section__button"><span>Contact us</span></router-link>
+    <router-link :to="{ path: '/contact', hash: '#contact_form_anchor' }" class="ecommerce__bottom-section__button"><span>Contact us</span></router-link>
 
     <ecommerce-other-services></ecommerce-other-services>
   </div>
