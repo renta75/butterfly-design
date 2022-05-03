@@ -30,44 +30,9 @@
 		</div>
 	</div>
 </template>
-<script>
-import axios from "axios";
 
-export default {
-  data() {
-    return {
-      name: "",
-      email: "",
-      message: "",
-    };
-  },
-  methods: {
-    sendEmail() {
-      try {
-        var params = {
-          Name: this.name,
-          Email: this.email,
-          Message: this.message,
-        };
-		console.log(JSON.stringify(params));
-        axios.post(
-          "https://api.butterflydesign.hr/prod/mailsender",
-          JSON.stringify(params)
-        );
-		
-      } catch (error) {
-        console.log({ error });
-      }
-      // Reset form field
-      this.name = "";
-      this.email = "";
-      this.message = "";
-    },
-  },
-};
-</script>
 <style lang="scss" scoped>
-@import "@/assets/scss/_mixins.scss";
+@import '@/assets/scss/_mixins.scss';
 
 .contact-form {
 	width: 100%;
@@ -146,90 +111,51 @@ export default {
 	}
 }
 
-    ::placeholder {
-      color: #4d2f96;
-    }
-  }
-
-  &__info {
-    &__heading {
-      width: 75%;
-      font-size: 1.5rem;
-      color: $pink;
-      font-family: "Montserrat";
-    }
-
-    &__text {
-      color: $white;
-      font-family: "MyriadPro";
-      padding: 2rem 0;
-    }
-  }
-
-  &__button {
-    @include button;
-    max-width: 28rem;
-    margin: 2rem 0;
-  }
-
-  &__icons {
-    display: flex;
-
-    img {
-      max-width: 2rem;
-      margin-right: 1rem;
-      width: 100%;
-      height: 100%;
-    }
-  }
-}
 
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
-  .contact-form {
-    &__button {
-      width: 75%;
+	.contact-form {
+        &__button {
+            width: 75%;
+        }
     }
-  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .contact-form {
-    height: auto;
+	.contact-form {
+		height: auto;
 
-    &__button {
-      width: 75%;
-    }
-  }
+		&__button {
+			width: 75%;
+		}
+	}
 }
 
 @media only screen and (max-width: 767px) {
-  .contact-form {
-    height: auto;
-    padding: 0 0.5rem;
+	.contact-form {
+		height: auto;
+		padding: 0 0.5rem;
 
-    &__wrapper {
-      flex-direction: column;
+		&__wrapper {
+			flex-direction: column;
 
-      input,
-      textarea {
-        width: 100%;
-      }
-    }
+			input, textarea {
+				width: 100%;
+			}
+		}
 
-    &__frm-wrapper,
-    &__info {
-      width: 100%;
-    }
+		&__frm-wrapper, &__info {
+			width: 100%;
+		}
 
-    &__info {
-      &__heading {
-        width: 100%;
-      }
-    }
+		&__info {
+			&__heading {
+				width: 100%;
+			}
+		}
 
-    &__button {
-      margin: 2rem auto;
-    }
-  }
+		&__button {
+			margin: 2rem auto;
+		}
+	}
 }
 </style>
