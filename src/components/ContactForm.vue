@@ -61,6 +61,7 @@
 			box-shadow: none;
 			border: none;
 			border-radius: 3px;
+			color: $white;
 		}
 
 		input {

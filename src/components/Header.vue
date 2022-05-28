@@ -66,7 +66,7 @@ export default {
             checked: false
         }
     },
-    watch:{
+    watch: {
         $route (){
             this.checked = false;
         }
