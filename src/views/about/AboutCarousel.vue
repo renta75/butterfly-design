@@ -8,7 +8,7 @@
         <carousel :per-page="1" :mouse-drag="false">
             <slide>
                 <div class="container about__carousel-slider">
-                    <h2>ONE STORY FROM BALKAN’S PENSINSULA</h2>
+                    <h2>ONE STORY FROM HUM’S PENSINSULA</h2>
                     <p>
                         There was one land so called Yugoslavia. The one was made of 7 nations and 3 religions. There where no country like this in the world by its structure. Yugoslav communist’s leader Tito leads the nations since his death. When Tito dies the dark sided members of communist party take a lead. The Yugoslavia ended in bloody and cruel war between nations.
                     </p>
