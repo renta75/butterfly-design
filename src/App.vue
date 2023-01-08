@@ -4,7 +4,7 @@
         <transition name="fade" mode="out-in">
             <router-view />
         </transition>
-        <footer-global v-show="loaded" />
+        <footer-global v-if="loaded" />
     </div>
 </template>
 
@@ -42,7 +42,7 @@ export default {
             this.loaded = false;
             setTimeout(() => {
                 this.loaded = true;
-            }, 500);
+            }, 1000);
         },
     },
 };
